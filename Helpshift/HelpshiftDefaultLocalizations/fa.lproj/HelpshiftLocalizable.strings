@@ -64,7 +64,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Could not fetch FAQs" = "فراخوانی سؤالات متداول مقدور نبود";
 "Thanks for rating us." = "از اینکه به ما امتیاز داده‌اید متشکریم.";
 "Download" = "دانلود";
-"Please enter a valid email" = "لطفاً ایمیل معتبری وارد کنید";
 "Message" = "پیام";
 "or" = "یا";
 "Decline" = "رد کردن";
@@ -155,3 +154,42 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Video" = "ویدئو";
 "File" = "پرونده";
 "Would you like to review the app?" = "آیا می خواهید برنامه را ارزیابی کنید؟";
+
+"Sending" = "در حال ارسال";
+"Failed to send" = "ارسال نشد";
+"Message from support by %@ on %@" = "پیام از بخش پشتیبانی توسط %@ در %@";
+"Message from support on %@" = "پیام از بخش پشتیبانی در %@";
+"Your Reply on %@" = "پاسخ شما درباره %@";
+"Your Reply, Sending" = "پاسخ شما، در حال ارسال";
+"Your Reply, Failed to send" = "پاسخ شما، ارسال نشد";
+"Retry Sending" = "تلاش مجدد برای ارسال";
+"Image %@, Double Tap to Download" = "تصویر %@ ، برای دانلود، دوبار کلیک کنید";
+"Image, Downloading, %@ of %@" = "تصویر، در حال دانلود، %@ از %@";
+"Image, Double Tap to View" = "تصویر، برای مشاهده دوبار ضربه بزنید";
+"File, %@, %@, Double Tap to Download" = "فایل، %@ ، %@ ، برای دانلود دوبار ضربه بزنید";
+"File, %@, Downloading %@ of %@" = "فایل، %@ ، در حال دانلود %@ از %@";
+"File, %@, Double Tap to Open" = "فایل، %@ ، برای باز کردن دوباره ضربه بزنید";
+"Error" = "خطا";
+"Enter a valid input" = "یک ورودی معتبر وارد کنید";
+"Please enter a valid email" = "لطفاً ایمیل معتبری وارد کنید";
+"Enter a valid number" = "شماره معتبر وارد کنید";
+"Network error" = "خطای شبکه";
+"Connecting..." = "برقراری ارتباط...";
+"No internet connection" = "بدون اتصال به اینترنت";
+"Enter a valid email address" = "یک آدرس ایمیل معتبر وارد کنید";
+"Please enter a valid number" = "لطفا یک شماره تلفن معتبر وارد کنید";
+"Tap to retry" = "برای تکرار دوباره کلیک کنید";
+"We are still trying to reach support. Please wait." = "ما هنوز در تلاش برای دستیابی به حمایت هستیم. لطفا صبر کنید.";
+"Please check your network connection." = "لطفا اتصال شبکه خود را بررسی کنید.";
+"Sorry, something went wrong. This conversation cannot be continued." = "با عرض پوزش، چیزی اشتباه رفت این مکالمه نمی تواند ادامه یابد";
+"Authentication Failed" = "تأیید اعتبار ناموفق بود";
+"Please try again later" = "لطفا بعدا دوباره امتحان کنید";
+"Something went wrong. Reconnecting..." = "چیزی اشتباه رفت اتصال مجدد ...";
+
+"FROM" = "از جانب";
+"Hold down your device's power and volume up buttons at the same time." = "در عین حال قدرت دستگاه خود را پایین نگه دارید و دکمه های بلندگو را افزایش دهید.";
+"Enter your message" = "پیام خود را وارد کنید";
+"Back" = "بازگشت";
+
+"Please enter a valid date." = "لطفاً تاریخ معتبری را وارد کنید.";
+"Enter a valid date" = "وارد کردن تاریخ معتبر";

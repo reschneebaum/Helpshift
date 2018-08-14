@@ -64,7 +64,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Could not fetch FAQs" = "FAQが見つかりませんでした";
 "Thanks for rating us." = "評価いただき。ありがとうございます。";
 "Download" = "ダウンロード";
-"Please enter a valid email" = "有効なEメールアドレスをご入力ください";
 "Message" = "メッセージ";
 "or" = "または";
 "Decline" = "拒否";
@@ -155,3 +154,42 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Video" = "ビデオ";
 "File" = "ファイル";
 "Would you like to review the app?" = "あなたはアプリを評価しますか？";
+
+"Sending" = "送信中";
+"Failed to send" = "送信失敗";
+"Message from support by %@ on %@" = "%@に届いたサポート担当%@からのメッセージ";
+"Message from support on %@" = "%@に届いたサポートからのメッセージ";
+"Your Reply on %@" = "%@に送った返信";
+"Your Reply, Sending" = "返信を送信中";
+"Your Reply, Failed to send" = "返信の送信に失敗";
+"Retry Sending" = "もう一度送信する";
+"Image %@, Double Tap to Download" = "画像（サイズ%@）をダブルタップしてダウンロード";
+"Image, Downloading, %@ of %@" = "画像をダウンロードしています。%@中%@完了";
+"Image, Double Tap to View" = "画像をダブルタップして表示";
+"File, %@, %@, Double Tap to Download" = "ファイル%@（サイズ%@）をダブルタップしてダウンロード";
+"File, %@, Downloading %@ of %@" = "ファイル%@をダウンロードしています。%@中%@完了";
+"File, %@, Double Tap to Open" = "ファイル%@をダブルタップして開く";
+"Error" = "エラー";
+"Enter a valid input" = "有効な入力を入力してください";
+"Please enter a valid email" = "有効なEメールアドレスをご入力ください";
+"Enter a valid number" = "有効な番号を入力してください";
+"Network error" = "ネットワークエラー";
+"Connecting..." = "接続中...";
+"No internet connection" = "インターネット接続なし";
+"Enter a valid email address" = "有効なメールアドレスを入力してください";
+"Please enter a valid number" = "有効な数値を入力してください";
+"Tap to retry" = "タップして再試行";
+"We are still trying to reach support. Please wait." = "私たちはまだ支援に取り掛かっています。 お待ちください。";
+"Please check your network connection." = "ネットワーク接続を確認してください。";
+"Sorry, something went wrong. This conversation cannot be continued." = "申し訳ありませんが、何かが間違っていた この会話は続行できません。";
+"Authentication Failed" = "認証に失敗しました";
+"Please try again later" = "後でもう一度お試しください";
+"Something went wrong. Reconnecting..." = "何かが間違っていた。 再接続中...";
+
+"FROM" = "から";
+"Hold down your device's power and volume up buttons at the same time." = "同時に、デバイスの電源ボタンと音量アップボタンを押し続けます。";
+"Enter your message" = "メッセージをご入力ください";
+"Back" = "戻る";
+
+"Please enter a valid date." = "有効な日付をご入力ください";
+"Enter a valid date" = "有効な日付を入力してください";

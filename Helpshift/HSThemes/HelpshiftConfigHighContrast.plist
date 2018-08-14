@@ -17,11 +17,11 @@
 		<key>Background image</key>
 		<string></string>
 		<key>Content background color</key>
-		<string></string>
+		<string>FFFFFF</string>
 		<key>Separator line color</key>
-		<string></string>
+		<string>cbcbd0</string>
 		<key>Text color</key>
-		<string></string>
+		<string>000000</string>
 		<key>Secondary text color</key>
 		<string>000000</string>
 		<key>Placeholder text color</key>
@@ -93,7 +93,7 @@
 	<key>FAQ and Chat</key>
 	<dict>
 		<key>Chat send button color</key>
-		<string></string>
+		<string>0061D0</string>
 		<key>Timestamp text color</key>
 		<string>595959</string>
 		<key>FAQ yes button color</key>
@@ -103,13 +103,31 @@
 		<key>Screenshot tutorial button color</key>
 		<string></string>
 		<key>Screenshot attach button color</key>
-		<string></string>
+		<string>748599</string>
 		<key>Typing indicator color</key>
 		<string></string>
 		<key>User message text color</key>
 		<string>ffffff</string>
 		<key>Agent message text color</key>
-		<string>222222</string>
+		<string>000000</string>
+		<key>User message background color</key>
+		<string>007AFF</string>
+		<key>Agent message background color</key>
+		<string>EFEFF4</string>
+		<key>Media message background color</key>
+		<string>FFFFFF</string>
+		<key>Media message border color</key>
+		<string>000000</string>
+		<key>Media message action color</key>
+		<string>0061D0</string>
+		<key>Message error color</key>
+		<string>FF3B30</string>
+		<key>Selectable option color</key>
+		<string>0061D0</string>
+		<key>Field Background color</key>
+		<string>FFFFFF</string>
+		<key>Field border color</key>
+		<string>595959</string>
 	</dict>
 	<key>Message Retry Badge</key>
 	<dict>
@@ -125,7 +143,7 @@
 		<key>Text color</key>
 		<string></string>
 		<key>Rating star color</key>
-		<string></string>
+		<string>ff8000</string>
 		<key>Start new conversation button color</key>
 		<string></string>
 		<key>Yes button color</key>

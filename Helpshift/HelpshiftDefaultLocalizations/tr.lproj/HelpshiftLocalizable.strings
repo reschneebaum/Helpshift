@@ -65,7 +65,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Could not fetch FAQs" = "SSS getirilemedi";
 "Thanks for rating us." = "Bizi derecelendirdiğin için teşekkür ederiz.";
 "Download" = "İndir";
-"Please enter a valid email" = "Lütfen geçerli bir e-posta adresi gir";
 "Message" = "Mesaj";
 "or" = "veya";
 "Decline" = "Reddet";
@@ -155,3 +154,42 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Video" = "Video";
 "File" = "Dosya";
 "Would you like to review the app?" = "Uygulamayı derecelendirmek ister misiniz?";
+
+"Sending" = "Gönderiyor";
+"Failed to send" = "Gönderilemedi";
+"Message from support by %@ on %@" = "Destek bölümünden mesaj (%@ %@)";
+"Message from support on %@" = "Destek bölümünden mesaj (%@)";
+"Your Reply on %@" = "Yanıtınız (%@)";
+"Your Reply, Sending" = "Yanıtınız gönderiliyor";
+"Your Reply, Failed to send" = "Yanıtınız gönderilemedi";
+"Retry Sending" = "Tekrar Göndermeyi Dene";
+"Image %@, Double Tap to Download" = "Resim %@, İndirmek için İki Kez Dokun";
+"Image, Downloading, %@ of %@" = "Resim İndiriliyor, %@/%@";
+"Image, Double Tap to View" = "Resim, Görüntülemek için İki Kez Dokun";
+"File, %@, %@, Double Tap to Download" = "Dosya, %@, %@, İndirmek için İki Kez Dokun";
+"File, %@, Downloading %@ of %@" = "Dosya, %@, %@/%@ indiriliyor";
+"File, %@, Double Tap to Open" = "Dosya, %@, Açmak için İki Kez Dokun";
+"Error" = "Hata";
+"Enter a valid input" = "Geçerli bir girdi girin";
+"Please enter a valid email" = "Lütfen geçerli bir e-posta adresi gir";
+"Enter a valid number" = "Geçerli bir numara girin";
+"Network error" = "Ağ hatası";
+"Connecting..." = "Bağlanıyor ...";
+"No internet connection" = "İnternet bağlantısı yok";
+"Enter a valid email address" = "Geçerli bir e-posta adresi girin";
+"Please enter a valid number" = "Lütfen geçerli bir sayı girin";
+"Tap to retry" = "Tekrar denemek için tıkla";
+"We are still trying to reach support. Please wait." = "Hala desteğe ulaşmaya çalışıyoruz. Lütfen bekle.";
+"Please check your network connection." = "Lütfen ağ bağlantınızı kontrol edin.";
+"Sorry, something went wrong. This conversation cannot be continued." = "Üzgünüm, bir şeyler ters gitti. Bu konuşma devam ettirilemez.";
+"Authentication Failed" = "Kimlik doğrulama başarısız oldu";
+"Please try again later" = "Lütfen daha sonra tekrar deneyiniz";
+"Something went wrong. Reconnecting..." = "Bir şeyler yanlış gitti. Yeniden bağlanıyor ...";
+
+"FROM" = "ITIBAREN";
+"Hold down your device's power and volume up buttons at the same time." = "Cihazınızın güç ve ses açma düğmelerini aynı anda basılı tutun.";
+"Enter your message" = "Mesajınızı girin";
+"Back" = "Geri";
+
+"Please enter a valid date." = "Lütfen geçerli bir tarih girin.";
+"Enter a valid date" = "Geçerli bir tarih gir";

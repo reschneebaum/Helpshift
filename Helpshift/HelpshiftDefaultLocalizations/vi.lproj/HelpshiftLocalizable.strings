@@ -65,7 +65,6 @@
 "Could not fetch FAQs" = "Không thể tải câu hỏi thường gặp";
 "Thanks for rating us." = "Cảm ơn bạn đã xếp hạng chúng tôi.";
 "Download" = "Tải về";
-"Please enter a valid email" = "Vui lòng nhập email hợp lệ";
 "Message" = "Tin nhắn";
 "or" = "hoặc";
 "Decline" = "Từ chối";
@@ -155,3 +154,42 @@
 "Video" = "Video";
 "File" = "Tập tin";
 "Would you like to review the app?" = "Bạn có muốn xếp hạng ứng dụng không?";
+
+"Sending" = "Đang gửi";
+"Failed to send" = "Gửi thất bại";
+"Message from support by %@ on %@" = "Thông báo từ bộ phận hỗ trợ bởi %@ vào %@";
+"Message from support on %@" = "Thông báo từ bộ phận hỗ trợ vào %@";
+"Your Reply on %@" = "Phản hồi của bạn vào %@";
+"Your Reply, Sending" = "Phản hồi của bạn, Đang gửi";
+"Your Reply, Failed to send" = "Phản hồi của bạn, Gửi thất bại";
+"Retry Sending" = "Thử gửi lại";
+"Image %@, Double Tap to Download" = "Hình %@, Nhấn đúp để tải xuống";
+"Image, Downloading, %@ of %@" = "Hình ành, Đang tải xuống, %@ / %@";
+"Image, Double Tap to View" = "Hình, Nhấn đúp để xem";
+"File, %@, %@, Double Tap to Download" = "Tệp, %@, %@, Nhấn đúp để xem";
+"File, %@, Downloading %@ of %@" = "Tệp, %@, Đang tải %@ / %@";
+"File, %@, Double Tap to Open" = "Tệp, %@, Nhấn đúp để mở";
+"Error" = "lỗi";
+"Enter a valid input" = "Nhập một đầu vào hợp lệ";
+"Please enter a valid email" = "Vui lòng nhập email hợp lệ";
+"Enter a valid number" = "Nhập một số hợp lệ";
+"Network error" = "Lỗi mạng";
+"Connecting..." = "Kết nối ...";
+"No internet connection" = "Không có kết nối Internet";
+"Enter a valid email address" = "Nhập địa chỉ email hợp lệ";
+"Please enter a valid number" = "Vui lòng nhập một số hợp lệ";
+"Tap to retry" = "Chạm để thử lại";
+"We are still trying to reach support. Please wait." = "Chúng tôi vẫn đang cố gắng để đạt được hỗ trợ. Xin chờ.";
+"Please check your network connection." = "Vui lòng kiểm tra kết nối mạng của bạn.";
+"Sorry, something went wrong. This conversation cannot be continued." = "Xin lỗi, có lỗi xảy ra. Không thể tiếp tục cuộc trò chuyện này.";
+"Authentication Failed" = "Quá trình xác thực đã thất bại";
+"Please try again later" = "Vui lòng thử lại sau";
+"Something went wrong. Reconnecting..." = "Đã xảy ra sự cố Đang kết nối lại ...";
+
+"FROM" = "TỪ";
+"Hold down your device's power and volume up buttons at the same time." = "Giữ nút nguồn và tăng âm lượng của thiết bị cùng một lúc.";
+"Enter your message" = "Nhập tin nhắn của bạn";
+"Back" = "Quay lại";
+
+"Please enter a valid date." = "Vui lòng nhập ngày hợp lệ.";
+"Enter a valid date" = "Nhập ngày hợp lệ";

@@ -66,7 +66,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Could not fetch FAQs" = "لم نتمكن من استعراض الأسئلة الشائعة";
 "Thanks for rating us." = "نشكرك على تقييمك لنا.";
 "Download" = "تنزيل";
-"Please enter a valid email" = "يُرجى إدخال عنوان بريد إلكتروني صحيح";
 "Message" = "رسالة";
 "or" = "أو";
 "Decline" = "رفض";
@@ -155,3 +154,42 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Video" = "فيديو";
 "File" = "ملف";
 "Would you like to review the app?" = "هل ترغب في مراجعة التطبيق؟";
+"Enter a valid email address" = "أدخِل عنوان بريد إلكتروني صحيحًا";
+
+"Sending" = "جارِ الإرسال";
+"Failed to send" = "فشل الإرسال";
+"Message from support by %@ on %@" = "رسالة من الدعم بواسطة %@ في %@";
+"Message from support on %@" = "رسالة من الدعم في %@";
+"Your Reply on %@" = "ردك في %@";
+"Your Reply, Sending" = "ردك، جارِ الإرسال";
+"Your Reply, Failed to send" = "ردك، فشل الإرسال";
+"Retry Sending" = "إعادة محاولة الإرسال";
+"Image %@, Double Tap to Download" = "صورة %@، النقر مرتين للتنزيل";
+"Image, Downloading, %@ of %@" = "صورة، جارٍ التنزيل، %@ من %@";
+"Image, Double Tap to View" = "صورة، النقر مرتين للعرض";
+"File, %@, %@, Double Tap to Download" = "ملف %@، %@، النقر مرتين للتنزيل";
+"File, %@, Downloading %@ of %@" = "ملف، %@، جارٍ التنزيل، %@ من %@";
+"File, %@, Double Tap to Open" = "ملف، %@، النقر مرتين للفتح";
+"Error" = "خطأ";
+"Enter a valid input" = "أدخل إدخالا صالحا";
+"Please enter a valid email" = "يُرجى إدخال عنوان بريد إلكتروني صحيح";
+"Enter a valid number" = "أدخل رقما صالحا";
+"Network error" = "خطأ في الشبكة";
+"Connecting..." = "توصيل...";
+"No internet connection" = "لا يوجد اتصال بالإنترنت";
+"Please enter a valid number" = "من فضلك أدخل رقما صالحا";
+"Tap to retry" = "إضغط لإعادة المحاولة";
+"We are still trying to reach support. Please wait." = "ما زلنا نحاول الوصول إلى الدعم. أرجو الإنتظار.";
+"Please check your network connection." = "يرجى التحقق من اتصالك بالشبكة.";
+"Sorry, something went wrong. This conversation cannot be continued." = "عذرا، هناك خطأ ما. هذه المحادثة لا يمكن أن تستمر.";
+"Authentication Failed" = "المصادقة فشلت";
+"Please try again later" = "الرجاء معاودة المحاولة في وقت لاحق";
+"Something went wrong. Reconnecting..." = "هناك خطأ ما. إعادة ربط ...";
+
+"FROM" = "من عند";
+"Hold down your device's power and volume up buttons at the same time." = "اضغط باستمرار على أزرار الطاقة وزر التخزين لأعلى في نفس الوقت.";
+"Enter your message" = "أدخِل رسالتك";
+"Back" = "عودة";
+
+"Please enter a valid date." = "يُرجى إدخال تاريخ صالح.";
+"Enter a valid date" = "أدخِل تاريخًا صالحًا";

@@ -64,7 +64,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Email invalid" = "അസാധുവായ ഇമെയിൽ";
 "Could not fetch FAQs" = "പതിവ് ചോദ്യങ്ങളൊന്നും കണ്ടെത്താനായില്ല";
 "Download" = "ഡൗൺലോഡുചെയ്യുക";
-"Please enter a valid email" = "സാധുവായ ഇമെയിൽ നൽകുക";
 "Message" = "സന്ദേശം";
 "or" = "അല്ലെങ്കിൽ";
 "Decline" = "നിരസിക്കുക";
@@ -155,3 +154,42 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Video" = "വീഡിയോ";
 "File" = "ഫയൽ";
 "Would you like to review the app?" = "അപ്ലിക്കേഷൻ റേറ്റുചെയ്യാൻ നിങ്ങൾക്ക് ആഗ്രഹമുണ്ടോ?";
+
+"Sending" = "അയയ്ക്കുന്നു";
+"Failed to send" = "അയയ്ക്കുന്നത് പരാജയപ്പെട്ടു";
+"Message from support by %@ on %@" = "%@ -ന് %@-ഓടെ പിന്തുണയിൽ നിന്ന് ലഭിച്ച സന്ദേശം";
+"Message from support on %@" = "%@ -ന് പിന്തുണയിൽ നിന്ന് ലഭിച്ച സന്ദേശം";
+"Your Reply on %@" = "%@ -ന് നിങ്ങളുടെ മറുപടി";
+"Your Reply, Sending" = "നിങ്ങളുടെ മറുപടി, അയയ്ക്കുന്നു";
+"Your Reply, Failed to send" = "നിങ്ങളുടെ മറുപടി, അയയ്ക്കുന്നത് പരാജയപ്പെട്ടു";
+"Retry Sending" = "വീണ്ടും ശ്രമിക്കുക";
+"Image %@, Double Tap to Download" = "ചിത്രം %@, ഡൗൺലോഡ് ചെയ്യാൻ ഇരട്ട ടാപ്പ് ചെയ്യുക";
+"Image, Downloading, %@ of %@" = "ചിത്രം, ഡൗൺലോഡ് ചെയ്യുന്നു, %@ / %@";
+"Image, Double Tap to View" = "ചിത്രം, കാണുന്നതിന് ഇരട്ട ടാപ്പ് ചെയ്യുക";
+"File, %@, %@, Double Tap to Download" = "ഫയൽ, %@, %@, ഡൗൺലോഡ് ചെയ്യാൻ ഇരട്ട ടാപ്പ് ചെയ്യുക";
+"File, %@, Downloading %@ of %@" = "ഫയൽ, %@, ഡൗൺലോഡ് ചെയ്യുന്നു %@ / %@";
+"File, %@, Double Tap to Open" = "ഫയൽ, %@, തുറക്കുന്നതിന് ഇരട്ട ടാപ്പ് ചെയ്യുക";
+"Error" = "പിശക്";
+"Enter a valid input" = "സാധുവായ ഒരു ഇൻപുട്ട് നൽകുക";
+"Please enter a valid email" = "സാധുവായ ഇമെയിൽ നൽകുക";
+"Enter a valid number" = "സാധുവായ ഒരു നമ്പർ നൽകുക";
+"Network error" = "നെറ്റ്വർക്ക് പിശക്";
+"Connecting..." = "കണക്റ്റുചെയ്യുന്നു ...";
+"No internet connection" = "ഇന്റർനെറ്റ് കണക്ഷനില്ല";
+"Enter a valid email address" = "സാധുവായ ഒരു ഇമെയിൽ വിലാസം നൽകുക";
+"Please enter a valid number" = "ഒരു സാധുവായ നമ്പർ നൽകുക";
+"Tap to retry" = "വീണ്ടും ശ്രമിക്കാനായി ക്ലിക്ക് ചെയ്യുക";
+"We are still trying to reach support. Please wait." = "ഞങ്ങൾ ഇപ്പോഴും പിന്തുണയിൽ എത്താൻ ശ്രമിക്കുന്നു. കാത്തിരിക്കൂ.";
+"Please check your network connection." = "ദയവായി നിങ്ങളുടെ നെറ്റ്വർക്ക് കണക്ഷൻ പരിശോധിക്കുക.";
+"Sorry, something went wrong. This conversation cannot be continued." = "ക്ഷമിക്കണം, എന്തോ കുഴപ്പം സംഭവിച്ചു. ഈ സംഭാഷണം തുടരാനാകില്ല.";
+"Authentication Failed" = "പ്രാമാണീകരണം പരാജയപ്പെട്ടു";
+"Please try again later" = "പിന്നീട് വീണ്ടും ശ്രമിക്കുക";
+"Something went wrong. Reconnecting..." = "എന്തോ കുഴപ്പം സംഭവിച്ചു. വീണ്ടും ബന്ധിപ്പിക്കുന്നു ...";
+
+"FROM" = "മുതൽ";
+"Hold down your device's power and volume up buttons at the same time." = "നിങ്ങളുടെ ഉപകരണത്തിന്റെ പവർ, വോളിയം അപ്പ് ബട്ടണുകൾ ഒരേ സമയം അമർത്തിപ്പിടിക്കുക.";
+"Enter your message" = "നിങ്ങളുടെ സന്ദേശം എൻ്റർ ചെയ്യുക";
+"Back" = "പിന്നിലേക്ക്";
+
+"Please enter a valid date." = "സാധുവായ ഒരു തീയതി എന്റർ ചെയ്യുക.";
+"Enter a valid date" = "സാധുവായ ഒരു തീയതി എന്റർ ചെയ്യുക";

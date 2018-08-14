@@ -64,7 +64,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Could not fetch FAQs" = "ఎఫ్‌ఎక్యూలను తీసుకురాలేకపోయాము";
 "Thanks for rating us." = "మమ్మల్ని రేట్ చేసినందుకు ధన్యవాదాలు.";
 "Download" = "డౌన్‌లోడ్‌ చేయండి";
-"Please enter a valid email" = "దయచేసి ఒక సరైన ఇమెయిల్‌ను ప్రవేశపెట్టండి";
 "Message" = "సందేశం";
 "or" = "లేదా";
 "Decline" = "నిరాకరించండి";
@@ -155,3 +154,42 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Video" = "వీడియో";
 "File" = "ఫైలు";
 "Would you like to review the app?" = "మీరు అనువర్తనాన్ని సమీక్షించాలనుకుంటున్నారా?";
+
+"Sending" = "పంపుతోంది";
+"Failed to send" = "పంపడం విఫలమైంది";
+"Message from support by %@ on %@" = "%@ నాడు %@ ద్వారా సపోర్ట్ నుంచి సందేశం";
+"Message from support on %@" = "%@ నాడు సపోర్ట్ నుంచి సందేశం";
+"Your Reply on %@" = "%@ నాడు మీ బదులు";
+"Your Reply, Sending" = "మీ బదులు, పంపుతోంది";
+"Your Reply, Failed to send" = "మీ బదులు, పంపుడం విఫలమైంది";
+"Retry Sending" = "పంపడానికి తిరిగి ప్రయత్నించు";
+"Image %@, Double Tap to Download" = "ఇమేజ్ %@, డౌన్‌లోడ్ చేయడానికి రెండుసార్లు తట్టండి";
+"Image, Downloading, %@ of %@" = "ఇమేజ్, డౌన్‌లోడ్ చేస్తోంది %@ యొక్క %@";
+"Image, Double Tap to View" = "ఇమేజ్, చూడటం కొరకు రెండుసార్లు తట్టండి";
+"File, %@, %@, Double Tap to Download" = "ఫైలు, %@, %@, డౌన్‌లోడ్ చేయడానికి రెండుసార్లు తట్టండి";
+"File, %@, Downloading %@ of %@" = "ఫైలు, %@, %@ యొక్క %@ డౌన్‌లోడ్ చేస్తోంది";
+"File, %@, Double Tap to Open" = "ఫైలు, %@, తెరవడం కొరకు రెండుసార్లు తట్టండి";
+"Error" = "లోపం";
+"Enter a valid input" = "చెల్లుబాటు అయ్యే ఇన్పుట్ను నమోదు చేయండి";
+"Please enter a valid email" = "దయచేసి ఒక సరైన ఇమెయిల్‌ను ప్రవేశపెట్టండి";
+"Enter a valid number" = "చెల్లుబాటు అయ్యే సంఖ్యను నమోదు చేయండి";
+"Network error" = "నెట్వర్క్ లోపం";
+"Connecting..." = "కనెక్ట్ చేస్తోంది ...";
+"No internet connection" = "ఇంటర్నెట్ కనెక్షన్ లేదు";
+"Enter a valid email address" = "చెల్లుబాటు అయ్యే ఇమెయిల్ చిరునామాను నమోదు చేయండి";
+"Please enter a valid number" = "దయచేసి చెల్లుబాటు అయ్యే సంఖ్యను నమోదు చేయండి";
+"Tap to retry" = "మరోసారి ప్రయత్నిచేందుకు తట్టండి";
+"We are still trying to reach support. Please wait." = "మేము ఇప్పటికీ మద్దతును చేరుకోవడానికి ప్రయత్నిస్తున్నాము. దయచేసి వేచి ఉండండి.";
+"Please check your network connection." = "దయచేసి మీ నెట్వర్క్ కనెక్షన్ను తనిఖీ చేయండి.";
+"Sorry, something went wrong. This conversation cannot be continued." = "క్షమించండి, ఏదో తప్పు జరిగింది. ఈ సంభాషణ కొనసాగించబడదు.";
+"Authentication Failed" = "ప్రామాణీకరణ విఫలమైంది";
+"Please try again later" = "దయచేసి తర్వాత మళ్లీ ప్రయత్నించండి";
+"Something went wrong. Reconnecting..." = "ఎక్కడో తేడ జరిగింది. కనెక్ట్ చేస్తోంది ...";
+
+"FROM" = "నుండి";
+"Hold down your device's power and volume up buttons at the same time." = "అదే సమయంలో మీ పరికరం యొక్క శక్తిని మరియు వాల్యూమ్ బటన్లను నొక్కి పట్టుకోండి.";
+"Enter your message" = "మీ సందేశాన్ని ప్రవేశపెట్టండి";
+"Back" = "వెనుకకు";
+
+"Please enter a valid date." = "ఒక సరైన తేదీని దయచేసి ప్రవేశపెట్టండి.";
+"Enter a valid date" = "ఒక సరైన తేదీని ప్రవేశపెట్టండి";

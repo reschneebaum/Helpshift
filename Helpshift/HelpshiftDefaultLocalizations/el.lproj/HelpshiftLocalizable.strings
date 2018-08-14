@@ -64,7 +64,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Could not fetch FAQs" = "Δεν ανακτήθηκαν οι συνήθεις ερωτήσεις";
 "Thanks for rating us." = "Ευχαριστούμε για την αξιολόγησή σας.";
 "Download" = "Λήψη";
-"Please enter a valid email" = "Εισαγάγετε ένα έγκυρο email";
 "Message" = "Μήνυμα";
 "or" = "ή";
 "Decline" = "Απόρριψη";
@@ -155,3 +154,42 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Video" = "βίντεο";
 "File" = "αρχείο";
 "Would you like to review the app?" = "Θα θέλατε να αξιολογήσετε την εφαρμογή;";
+
+"Sending" = "Αποστολή";
+"Failed to send" = "Η αποστολή απέτυχε";
+"Message from support by %@ on %@" = "Μήνυμα από την υποστήριξη από %@ στις %@";
+"Message from support on %@" = "Μήνυμα από την υποστήριξη στις %@";
+"Your Reply on %@" = "Η απάντησή σας στις %@";
+"Your Reply, Sending" = "Η απάντησή σας, Αποστολή";
+"Your Reply, Failed to send" = "Η απάντησή σας, Η αποστολή απέτυχε";
+"Retry Sending" = "Επανάληψη Αποστολής";
+"Image %@, Double Tap to Download" = "Εικόνα %@, Διπλό πάτημα για λήψη";
+"Image, Downloading, %@ of %@" = "Εικόνα, Λήψη, %@ από %@";
+"Image, Double Tap to View" = "Εικόνα, Διπλό πάτημα για προβολή";
+"File, %@, %@, Double Tap to Download" = "Αρχείο %@, %@, Διπλό πάτημα για λήψη";
+"File, %@, Downloading %@ of %@" = "Αρχείο, %@, Λήψη %@ από %@";
+"File, %@, Double Tap to Open" = "Αρχείο, %@, Διπλό πάτημα για άνοιγμα";
+"Error" = "Λάθος";
+"Enter a valid input" = "Εισαγάγετε μια έγκυρη είσοδο";
+"Please enter a valid email" = "Εισαγάγετε ένα έγκυρο email";
+"Enter a valid number" = "Εισαγάγετε έναν έγκυρο αριθμό";
+"Network error" = "Σφάλμα δικτύου";
+"Connecting..." = "Συνδετικός...";
+"No internet connection" = "Δεν υπάρχει σύνδεση στο διαδίκτυο";
+"Enter a valid email address" = "Εισάγετε μια έγκυρη διεύθυνση email";
+"Please enter a valid number" = "Παρακαλώ εισάγετε έναν έγκυρο αριθμό";
+"Tap to retry" = "Πατήστε για επανάληψη";
+"We are still trying to reach support. Please wait." = "Εξακολουθούμε να προσπαθούμε να επιτύχουμε υποστήριξη. Παρακαλώ περιμένετε.";
+"Please check your network connection." = "Ελέγξτε τη σύνδεση δικτύου.";
+"Sorry, something went wrong. This conversation cannot be continued." = "Συγνώμη, κάτι πήγε στραβά. Αυτή η συζήτηση δεν μπορεί να συνεχιστεί.";
+"Authentication Failed" = "Η ταυτοποίηση απέτυχε";
+"Please try again later" = "Παρακαλώ δοκιμάστε ξανά αργότερα";
+"Something went wrong. Reconnecting..." = "Κάτι πήγε στραβά. Επανασύνδεση ...";
+
+"FROM" = "ΑΠΟ";
+"Hold down your device's power and volume up buttons at the same time." = "Κρατήστε ταυτόχρονα τα πλήκτρα τροφοδοσίας της συσκευής και της έντασης.";
+"Enter your message" = "Εισαγάγετε το μήνυμά σας";
+"Back" = "Επιστροφή";
+
+"Please enter a valid date." = "Παρακαλείσθε να εισαγάγετε μια έγκυρη ημερομηνία.";
+"Enter a valid date" = "Εισαγάγετε μια έγκυρη ημερομηνία";

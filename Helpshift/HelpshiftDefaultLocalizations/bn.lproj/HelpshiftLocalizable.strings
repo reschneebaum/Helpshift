@@ -64,7 +64,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Could not fetch FAQs" = "ফ্যাকস আনা গেল না";
 "Thanks for rating us." = "আমাদের গুণমান বিচার করার জন্য ধন্যবাদ।";
 "Download" = "ডাউনলোড";
-"Please enter a valid email" = "একটি বৈধ ইমেইল এন্টার করুন";
 "Message" = "বার্তা";
 "or" = "অথবা";
 "Decline" = "প্রত্যাখ্যান";
@@ -155,3 +154,42 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Video" = "ভিডিও";
 "File" = "ফাইল";
 "Would you like to review the app?" = "আপনি অ্যাপ্লিকেশন পর্যালোচনা করতে চান?";
+
+"Sending" = "পাঠানো হচ্ছে";
+"Failed to send" = "পাঠানো গেল না";
+"Message from support by %@ on %@" = "%@ দ্বারা %@ এ সহায়তা থেকে বার্তা";
+"Message from support on %@" = "%@ এ সহায়তা থেকে বার্তা";
+"Your Reply on %@" = "%@ এ আপনার উত্তর";
+"Your Reply, Sending" = "আপনার উত্তর, পাঠানো হচ্ছে";
+"Your Reply, Failed to send" = "আপনার উত্তর, পাঠানো যায়নি";
+"Retry Sending" = "আবার পাঠানোর চেষ্টা করুন";
+"Image %@, Double Tap to Download" = "Image %@, ডাউনলোড করতে দুইবার আলতো চাপুন";
+"Image, Downloading, %@ of %@" = "Image, %@, %@ এর মধ্যে ডাউনলোড করা হচ্ছে";
+"Image, Double Tap to View" = "Image, দেখতে দুইবার আলতো চাপুন";
+"File, %@, %@, Double Tap to Download" = "File, %@, %@, ডাউনলোড করতে দুইবার আলতো চাপুন";
+"File, %@, Downloading %@ of %@" = "ফাইল, %@, %@, %@ এর মধ্যে ডাউনলোড করা হচ্ছে";
+"File, %@, Double Tap to Open" = "ফাইল, %@, খুলতে দুইবার আলতো চাপুন";
+"Error" = "এরর";
+"Enter a valid input" = "একটি বৈধ ইনপুট লিখুন";
+"Please enter a valid email" = "একটি বৈধ ইমেইল এন্টার করুন";
+"Enter a valid number" = "একটি বৈধ নম্বর লিখুন";
+"Network error" = "নেটওয়ার্ক ত্রুটি";
+"Connecting..." = "সংযুক্ত হচ্ছে ...";
+"No internet connection" = "ইন্টারনেট সংযোগ নেই";
+"Enter a valid email address" = "একটি বৈধ ইমেইল ঠিকানা লিখুন";
+"Please enter a valid number" = "দয়া করে একটি বৈধ নম্বর লিখুন";
+"Tap to retry" = "পুনরায় চেষ্টা করতে আলতো চাপুন";
+"We are still trying to reach support. Please wait." = "আমরা এখনও সমর্থন পৌঁছানোর চেষ্টা করছি। অনুগ্রহপূর্বক অপেক্ষা করুন.";
+"Please check your network connection." = "আপনার নেটওয়ার্ক সংযোগ চেক করুন।";
+"Sorry, something went wrong. This conversation cannot be continued." = "দুঃখিত, কিছু ভুল হয়েছে। এই কথোপকথন অব্যাহত নাও হতে পারে";
+"Authentication Failed" = "প্রমাণীকরণ ব্যর্থ হয়েছে";
+"Please try again later" = "অনুগ্রহ করে একটু পরে আবার চেষ্টা করুন";
+"Something went wrong. Reconnecting..." = "কিছু ভুল হয়েছে. পুনঃসংযোগ হচ্ছে ...";
+
+"FROM" = "থেকে";
+"Hold down your device's power and volume up buttons at the same time." = "একই সময়ে আপনার ডিভাইসের শক্তি এবং ভলিউম আপ বোতাম ধরে রাখুন।";
+"Enter your message" = "আপনার বার্তা নিবেশ করুন";
+"Back" = "পিছনে যান";
+
+"Please enter a valid date." = "অনুগ্রহ করে একটি বৈধ তারিখ এন্টার করুন।";
+"Enter a valid date" = "একটি বৈধ তারিখ এন্টার করুন";

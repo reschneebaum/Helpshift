@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		91E148072005828D003D0BD5 /* libHelpshift-bitcode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E148062005828D003D0BD5 /* libHelpshift-bitcode.a */; };
+		99E488D721231F6B00C41CCD /* HsLocalization.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 99E488D621231F6B00C41CCD /* HsLocalization.bundle */; };
+		99E488D921231F9E00C41CCD /* HsUIResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 99E488D821231F9E00C41CCD /* HsUIResources.bundle */; };
+		99E488DC21231FBF00C41CCD /* libHelpshift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E488DA21231FBD00C41CCD /* libHelpshift.a */; };
+		99E488DD21231FBF00C41CCD /* libHelpshift-bitcode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99E488DB21231FBF00C41CCD /* libHelpshift-bitcode.a */; };
 		B65B76CE1F8D96B100CB96BF /* HelpshiftAll.h in Headers */ = {isa = PBXBuildFile; fileRef = B65B76C91F8D967E00CB96BF /* HelpshiftAll.h */; };
 		B65B76CF1F8D96B100CB96BF /* HelpshiftCampaigns.h in Headers */ = {isa = PBXBuildFile; fileRef = B65B76C31F8D967900CB96BF /* HelpshiftCampaigns.h */; };
 		B65B76D01F8D96B100CB96BF /* HelpshiftCore.h in Headers */ = {isa = PBXBuildFile; fileRef = B65B76CC1F8D967F00CB96BF /* HelpshiftCore.h */; };
 		B65B76D11F8D96B100CB96BF /* HelpshiftInbox.h in Headers */ = {isa = PBXBuildFile; fileRef = B65B76C21F8D967900CB96BF /* HelpshiftInbox.h */; };
 		B65B76D21F8D96B100CB96BF /* HelpshiftSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = B65B76C81F8D967E00CB96BF /* HelpshiftSupport.h */; };
-		B65B76D41F8D97A600CB96BF /* libHelpshift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B65B76C71F8D967D00CB96BF /* libHelpshift.a */; };
 		B65B76D51F8D988B00CB96BF /* Helpshift.h in Resources */ = {isa = PBXBuildFile; fileRef = B6FF9D031F88DB7C0068D2BE /* Helpshift.h */; };
 		B65B76D61F8D988B00CB96BF /* HelpshiftAll.h in Resources */ = {isa = PBXBuildFile; fileRef = B65B76C91F8D967E00CB96BF /* HelpshiftAll.h */; };
 		B65B76D71F8D988B00CB96BF /* HelpshiftCampaigns.h in Resources */ = {isa = PBXBuildFile; fileRef = B65B76C31F8D967900CB96BF /* HelpshiftCampaigns.h */; };
@@ -21,23 +23,21 @@
 		B65B76D91F8D988B00CB96BF /* HelpshiftDefaultLocalizations in Resources */ = {isa = PBXBuildFile; fileRef = B65B76CB1F8D967E00CB96BF /* HelpshiftDefaultLocalizations */; };
 		B65B76DA1F8D988B00CB96BF /* HelpshiftInbox.h in Resources */ = {isa = PBXBuildFile; fileRef = B65B76C21F8D967900CB96BF /* HelpshiftInbox.h */; };
 		B65B76DB1F8D988B00CB96BF /* HelpshiftSupport.h in Resources */ = {isa = PBXBuildFile; fileRef = B65B76C81F8D967E00CB96BF /* HelpshiftSupport.h */; };
-		B65B76DC1F8D988B00CB96BF /* HsLocalization.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B65B76C51F8D967B00CB96BF /* HsLocalization.bundle */; };
 		B65B76DD1F8D988B00CB96BF /* HSThemes in Resources */ = {isa = PBXBuildFile; fileRef = B65B76CA1F8D967E00CB96BF /* HSThemes */; };
-		B65B76DE1F8D988B00CB96BF /* HsUIResourceBundle.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B65B76CD1F8D967F00CB96BF /* HsUIResourceBundle.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		91E148062005828D003D0BD5 /* libHelpshift-bitcode.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libHelpshift-bitcode.a"; sourceTree = "<group>"; };
+		99E488D621231F6B00C41CCD /* HsLocalization.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HsLocalization.bundle; sourceTree = "<group>"; };
+		99E488D821231F9E00C41CCD /* HsUIResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HsUIResources.bundle; sourceTree = "<group>"; };
+		99E488DA21231FBD00C41CCD /* libHelpshift.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHelpshift.a; sourceTree = "<group>"; };
+		99E488DB21231FBF00C41CCD /* libHelpshift-bitcode.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libHelpshift-bitcode.a"; sourceTree = "<group>"; };
 		B65B76C21F8D967900CB96BF /* HelpshiftInbox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelpshiftInbox.h; sourceTree = "<group>"; };
 		B65B76C31F8D967900CB96BF /* HelpshiftCampaigns.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelpshiftCampaigns.h; sourceTree = "<group>"; };
-		B65B76C51F8D967B00CB96BF /* HsLocalization.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HsLocalization.bundle; sourceTree = "<group>"; };
-		B65B76C71F8D967D00CB96BF /* libHelpshift.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libHelpshift.a; sourceTree = "<group>"; };
 		B65B76C81F8D967E00CB96BF /* HelpshiftSupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelpshiftSupport.h; sourceTree = "<group>"; };
 		B65B76C91F8D967E00CB96BF /* HelpshiftAll.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelpshiftAll.h; sourceTree = "<group>"; };
 		B65B76CA1F8D967E00CB96BF /* HSThemes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HSThemes; sourceTree = "<group>"; };
 		B65B76CB1F8D967E00CB96BF /* HelpshiftDefaultLocalizations */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HelpshiftDefaultLocalizations; sourceTree = "<group>"; };
 		B65B76CC1F8D967F00CB96BF /* HelpshiftCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelpshiftCore.h; sourceTree = "<group>"; };
-		B65B76CD1F8D967F00CB96BF /* HsUIResourceBundle.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HsUIResourceBundle.bundle; sourceTree = "<group>"; };
 		B6FF9D001F88DB7C0068D2BE /* Helpshift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Helpshift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6FF9D031F88DB7C0068D2BE /* Helpshift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helpshift.h; sourceTree = "<group>"; };
 		B6FF9D041F88DB7C0068D2BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,8 +48,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				91E148072005828D003D0BD5 /* libHelpshift-bitcode.a in Frameworks */,
-				B65B76D41F8D97A600CB96BF /* libHelpshift.a in Frameworks */,
+				99E488DD21231FBF00C41CCD /* libHelpshift-bitcode.a in Frameworks */,
+				99E488DC21231FBF00C41CCD /* libHelpshift.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,11 +91,11 @@
 				B65B76CB1F8D967E00CB96BF /* HelpshiftDefaultLocalizations */,
 				B65B76C21F8D967900CB96BF /* HelpshiftInbox.h */,
 				B65B76C81F8D967E00CB96BF /* HelpshiftSupport.h */,
-				B65B76C51F8D967B00CB96BF /* HsLocalization.bundle */,
+				99E488D621231F6B00C41CCD /* HsLocalization.bundle */,
 				B65B76CA1F8D967E00CB96BF /* HSThemes */,
-				B65B76CD1F8D967F00CB96BF /* HsUIResourceBundle.bundle */,
-				B65B76C71F8D967D00CB96BF /* libHelpshift.a */,
-				91E148062005828D003D0BD5 /* libHelpshift-bitcode.a */,
+				99E488D821231F9E00C41CCD /* HsUIResources.bundle */,
+				99E488DB21231FBF00C41CCD /* libHelpshift-bitcode.a */,
+				99E488DA21231FBD00C41CCD /* libHelpshift.a */,
 			);
 			path = Helpshift;
 			sourceTree = "<group>";
@@ -178,10 +178,10 @@
 				B65B76D81F8D988B00CB96BF /* HelpshiftCore.h in Resources */,
 				B65B76D91F8D988B00CB96BF /* HelpshiftDefaultLocalizations in Resources */,
 				B65B76DA1F8D988B00CB96BF /* HelpshiftInbox.h in Resources */,
+				99E488D921231F9E00C41CCD /* HsUIResources.bundle in Resources */,
 				B65B76DB1F8D988B00CB96BF /* HelpshiftSupport.h in Resources */,
-				B65B76DC1F8D988B00CB96BF /* HsLocalization.bundle in Resources */,
+				99E488D721231F6B00C41CCD /* HsLocalization.bundle in Resources */,
 				B65B76DD1F8D988B00CB96BF /* HSThemes in Resources */,
-				B65B76DE1F8D988B00CB96BF /* HsUIResourceBundle.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,8 +324,9 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Helpshift",
+					"$(PROJECT_DIR)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.enfluid.Helpshift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reschneebaum.Helpshift;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -348,8 +349,9 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Helpshift",
+					"$(PROJECT_DIR)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.enfluid.Helpshift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.reschneebaum.Helpshift;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";

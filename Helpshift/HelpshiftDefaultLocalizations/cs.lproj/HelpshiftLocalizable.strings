@@ -64,7 +64,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Could not fetch FAQs" = "Nebylo možné vyvolat často kladené dotazy";
 "Thanks for rating us." = "Děkujeme za vaše hodnocení.";
 "Download" = "Stáhnout";
-"Please enter a valid email" = "Prosím, zadejte platný e-mail";
 "Message" = "Zpráva";
 "or" = "nebo";
 "Decline" = "Odmítnout";
@@ -155,3 +154,42 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Video" = "Video";
 "File" = "Soubor";
 "Would you like to review the app?" = "Chtěli byste aplikaci zkontrolovat?";
+
+"Sending" = "Odesílání";
+"Failed to send" = "Odeslání se nezdařilo";
+"Message from support by %@ on %@" = "Nová zpráva z podpory od %@ z %@";
+"Message from support on %@" = "Nová zpráva z podpory z %@";
+"Your Reply on %@" = "Vaše odpověď z %@";
+"Your Reply, Sending" = "Vaše odpověď, odesílání";
+"Your Reply, Failed to send" = "Vaše odpověď, odeslání se nezdařilo";
+"Retry Sending" = "Zkusit odeslat znovu";
+"Image %@, Double Tap to Download" = "Obrázek %@, pro stažení dvakrát klepněte";
+"Image, Downloading, %@ of %@" = "Obrázek, stahování, %@ z %@";
+"Image, Double Tap to View" = "Obrázek, pro zobrazení dvakrát klepněte";
+"File, %@, %@, Double Tap to Download" = "Soubor, %@, %@, pro stažení dvakrát klepněte";
+"File, %@, Downloading %@ of %@" = "Soubor, %@, stahování %@ z %@";
+"File, %@, Double Tap to Open" = "Soubor, %@, pro otevření dvakrát klepněte";
+"Error" = "Chyba";
+"Enter a valid input" = "Zadejte platný vstup";
+"Please enter a valid email" = "Prosím, zadejte platný e-mail";
+"Enter a valid number" = "Zadejte platné číslo";
+"Network error" = "Chyba sítě";
+"Connecting..." = "Spojovací...";
+"No internet connection" = "Žádné internetové připojení";
+"Enter a valid email address" = "Zadejte platnou e-mailovou adresu";
+"Please enter a valid number" = "Prosím zadejte platné číslo";
+"Tap to retry" = "Zmáčkni pro opakování";
+"We are still trying to reach support. Please wait." = "Stále se snažíme dosáhnout podpory. Prosím, čekejte.";
+"Please check your network connection." = "Zkontrolujte síťové připojení.";
+"Sorry, something went wrong. This conversation cannot be continued." = "Promiň, něco se pokazilo. Tuto konverzaci nelze pokračovat.";
+"Authentication Failed" = "Ověření se nezdařilo";
+"Please try again later" = "Prosím zkuste to znovu později";
+"Something went wrong. Reconnecting..." = "Něco se pokazilo. Připojení ...";
+
+"FROM" = "Z";
+"Hold down your device's power and volume up buttons at the same time." = "Podržte současně tlaítka napájení a hlasitosti pístroje.";
+"Enter your message" = "Zadejte svoji zprávu";
+"Back" = "Zpět";
+
+"Please enter a valid date." = "Zadejte prosím platné datum";
+"Enter a valid date" = "Zadejte platné datum";

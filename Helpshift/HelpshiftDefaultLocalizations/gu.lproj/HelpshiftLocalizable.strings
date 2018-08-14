@@ -64,7 +64,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Could not fetch FAQs" = "વારંવાર પૂછાતા પ્રશ્નો લાવી શકાયા નથી";
 "Thanks for rating us." = "અમને રેટ કરવા બદ્દલ આભાર.";
 "Download" = "ડાઉનલોડ કરો";
-"Please enter a valid email" = "કૃપા કરીને માન્ય ઇમેઇલ દાખલ કરો";
 "Message" = "મેસેજ";
 "or" = "અથવા";
 "Decline" = "નકારો";
@@ -156,3 +155,42 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Video" = "વિડિઓ";
 "File" = "ફાઇલ";
 "Would you like to review the app?" = "શું તમે એપ્લિકેશનને રેટ કરવા માંગો છો?";
+
+"Sending" = "મોકલી રહ્યા છે";
+"Failed to send" = "મોકલવામાં નિષ્ફળ";
+"Message from support by %@ on %@" = "%@ પર %@ દ્વારા સપોર્ટ તરફથી સંદેશ";
+"Message from support on %@" = "%@ પર સપોર્ટ તરફથી સંદેશ";
+"Your Reply on %@" = "%@ પર તમારો જવાબ";
+"Your Reply, Sending" = "તમારો જવાબ, મોકલી રહ્યા છે";
+"Your Reply, Failed to send" = "તમારી જવાબ, મોકલવામાં નિષ્ફળ";
+"Retry Sending" = "મોકલવા માટે ફરી પ્રયાસ";
+"Image %@, Double Tap to Download" = "ચિત્ર %@, ડાઉનલોડ કરવા માટે ડબલ ટેપ કરો";
+"Image, Downloading, %@ of %@" = "ચિત્ર, %@ નું %@ડાઉનલોડ થઈ રહ્યું છે,";
+"Image, Double Tap to View" = "ચિત્ર, જોવા માટે ડબલ ટેપ કરો";
+"File, %@, %@, Double Tap to Download" = "ફાઇલ, %@, %@, ડાઉનલોડ કરવા માટે ડબલ ટેપ કરો";
+"File, %@, Downloading %@ of %@" = "ફાઇલ, %@, %@ નું %@ ડાઉનલોડ થઇ રહ્યું છે";
+"File, %@, Double Tap to Open" = "ફાઇલ, %@, ખોલવા માટે ડબલ ટૅપ કરો";
+"Error" = "ભૂલ";
+"Enter a valid input" = "માન્ય ઇનપુટ દાખલ કરો";
+"Please enter a valid email" = "કૃપા કરીને માન્ય ઇમેઇલ દાખલ કરો";
+"Enter a valid number" = "એક માન્ય નંબર દાખલ કરો";
+"Network error" = "નેટવર્ક ક્ષતિ";
+"Connecting..." = "કનેક્ટ કરી રહ્યું છે ...";
+"No internet connection" = "કોઈ ઇન્ટરનેટ કનેક્શન નથી";
+"Enter a valid email address" = "યોગ્ય ઇ - મેલ એડ્રેસ આપો";
+"Please enter a valid number" = "કૃપા કરી કોઈ માન્ય નંબર દાખલ કરો";
+"Tap to retry" = "ફરી પ્રયાસ કરવા ટેપ કરો";
+"We are still trying to reach support. Please wait." = "અમે હજુ પણ સમર્થન પહોંચવાનો પ્રયાસ કરી રહ્યાં છીએ. મહેરબાની કરી રાહ જુવો.";
+"Please check your network connection." = "કૃપા કરીને તમારું નેટવર્ક કનેક્શન તપાસો";
+"Sorry, something went wrong. This conversation cannot be continued." = "માફ કરશો, કંઈક ખોટું થયું હતું. આ વાતચીત ચાલુ રાખી શકાતી નથી.";
+"Authentication Failed" = "પ્રમાણીકરણ નિષ્ફળ થયું";
+"Please try again later" = "પછીથી ફરી પ્રયત્ન કરો";
+"Something went wrong. Reconnecting..." = "કંઈક ખોટું થયું. ફરીથી કનેક્ટ કરી રહ્યું છે ...";
+
+"FROM" = "પ્રતિ";
+"Hold down your device's power and volume up buttons at the same time." = "એક જ સમયે તમારા ઉપકરણની શક્તિ અને વોલ્યુમ અપ બટનોને પકડી રાખો.";
+"Enter your message" = "તમારો મેસેજ દાખલ કરો";
+"Back" = "પાછા ફરો";
+
+"Please enter a valid date." = "કૃપા કરીને માન્ય તારીખ દાખલ કરો";
+"Enter a valid date" = "માન્ય તારીખ દાખલ કરો";

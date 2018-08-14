@@ -64,7 +64,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Could not fetch FAQs" = "UKK:ta ei löytynyt";
 "Thanks for rating us." = "Kiitos arvostelusta.";
 "Download" = "Lataa";
-"Please enter a valid email" = "Kirjoita oikea sähköposti";
 "Message" = "Viesti";
 "or" = "tai";
 "Decline" = "Hylkää";
@@ -155,3 +154,42 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Video" = "Video";
 "File" = "tiedosto";
 "Would you like to review the app?" = "Haluatko tarkistaa sovelluksen?";
+
+"Sending" = "Lähetetään";
+"Failed to send" = "Lähettäminen ei onnistunut";
+"Message from support by %@ on %@" = "Uusi viesti asiakastukihenkilöltä %@ aiheesta %@";
+"Message from support on %@" = "Uusi viesti asiakastuelta aiheesta %@";
+"Your Reply on %@" = "Vastauksesi aiheesta %@";
+"Your Reply, Sending" = "Vastauksesi, lähetetään";
+"Your Reply, Failed to send" = "Vastauksesi, lähettäminen ei onnistunut";
+"Retry Sending" = "Lähetetään uudelleen";
+"Image %@, Double Tap to Download" = "Kuva %@, lataa kaksoisnapauttamalla";
+"Image, Downloading, %@ of %@" = "Kuva, ladataan, %@/%@";
+"Image, Double Tap to View" = "Kuva, katso kaksoisnapauttamalla";
+"File, %@, %@, Double Tap to Download" = "Tiedosto, %@, %@, lataa kaksoisnapauttamalla";
+"File, %@, Downloading %@ of %@" = "Tiedosto, %@, ladataan %@/%@";
+"File, %@, Double Tap to Open" = "Tiedosto, %@, avaa kaksoisnapauttamalla";
+"Error" = "Virhe";
+"Enter a valid input" = "Anna kelvollinen syöte";
+"Please enter a valid email" = "Kirjoita oikea sähköposti";
+"Enter a valid number" = "Anna kelvollinen numero";
+"Network error" = "Verkkovirhe";
+"Connecting..." = "Yhdistetään ...";
+"No internet connection" = "Ei Internet-yhteyttä";
+"Enter a valid email address" = "syötä voimassa oleva sähköpostiosoite";
+"Please enter a valid number" = "Anna kelvollinen numero";
+"Tap to retry" = "Napauta yrittää uudelleen";
+"We are still trying to reach support. Please wait." = "Yritämme edelleen saada tukea. Odota.";
+"Please check your network connection." = "Tarkista verkkoyhteytesi.";
+"Sorry, something went wrong. This conversation cannot be continued." = "Pahoittelut, jotain meni pieleen. Tätä keskustelua ei voi jatkaa.";
+"Authentication Failed" = "Todennus epäonnistui";
+"Please try again later" = "Yritä uudelleen myöhemmin";
+"Something went wrong. Reconnecting..." = "Jotain meni pieleen. Yhdistetään uudelleen ...";
+
+"FROM" = "ALKAEN";
+"Hold down your device's power and volume up buttons at the same time." = "Pidä laitteesi virta- ja äänenvoimakkuuden suurennuspainikkeita samanaikaisesti.";
+"Enter your message" = "Kirjoita viestisi";
+"Back" = "Palaa";
+
+"Please enter a valid date." = "Kirjoita kelvollinen päivämäärä.";
+"Enter a valid date" = "Kirjoita kelvollinen päivämäärä";

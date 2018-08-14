@@ -64,7 +64,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Could not fetch FAQs" = "Kunde inte hämta Vanliga frågor";
 "Thanks for rating us." = "Tack för att du betygsätter oss.";
 "Download" = "Ladda ned";
-"Please enter a valid email" = "Skriv in en giltig e-post";
 "Message" = "Meddelande";
 "or" = "eller";
 "Decline" = "Avböj";
@@ -156,3 +155,42 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Video" = "Vídeo";
 "File" = "Fil";
 "Would you like to review the app?" = "Vill du betygsätta appen?";
+
+"Sending" = "Skickar";
+"Failed to send" = "Kunde inte skicka";
+"Message from support by %@ on %@" = "Meddelande från supporten från %@ %@";
+"Message from support on %@" = "Meddelande från supporten %@";
+"Your Reply on %@" = "Ditt svar %@";
+"Your Reply, Sending" = "Ditt svar skickas";
+"Your Reply, Failed to send" = "Ditt svar kunde inte skickas";
+"Retry Sending" = "Skicka igen";
+"Image %@, Double Tap to Download" = "Bild %@, tryck två gånger för att ladda ned";
+"Image, Downloading, %@ of %@" = "Laddar ned bild, %@ av %@";
+"Image, Double Tap to View" = "Bild, tryck två gånger för att visa";
+"File, %@, %@, Double Tap to Download" = "Fil %@, %@, tryck två gånger för att ladda ned";
+"File, %@, Downloading %@ of %@" = "Fil, %@, laddar ned %@ av %@";
+"File, %@, Double Tap to Open" = "Fil, %@, tryck två gånger för att öppna";
+"Error" = "Fel";
+"Enter a valid input" = "Ange en giltig inmatning";
+"Please enter a valid email" = "Skriv in en giltig e-post";
+"Enter a valid number" = "Ange ett giltigt nummer";
+"Network error" = "Nätverksfel";
+"Connecting..." = "Anslutande ...";
+"No internet connection" = "Ingen internetanslutning";
+"Enter a valid email address" = "Ange en giltig e-postadress";
+"Please enter a valid number" = "var vänlig skriv in ett giltigt nummer";
+"Tap to retry" = "Klicka för att försöka igen";
+"We are still trying to reach support. Please wait." = "Vi försöker fortfarande nå stöd. Vänta.";
+"Please check your network connection." = "Kontrollera din nätverksanslutning.";
+"Sorry, something went wrong. This conversation cannot be continued." = "Förlåt, något gick fel. Samtalet kan inte fortsättas.";
+"Authentication Failed" = "Autentisering misslyckades";
+"Please try again later" = "Vänligen försök igen senare";
+"Something went wrong. Reconnecting..." = "Något gick fel. Reconnecting ...";
+
+"FROM" = "FRÅN";
+"Hold down your device's power and volume up buttons at the same time." = "Håll ner enhetens makt och volym upp knapparna samtidigt.";
+"Enter your message" = "Skriv ditt meddelande";
+"Back" = "Tillbaka";
+
+"Please enter a valid date." = "Ange ett giltigt datum.";
+"Enter a valid date" = "Ange ett giltigt datum";

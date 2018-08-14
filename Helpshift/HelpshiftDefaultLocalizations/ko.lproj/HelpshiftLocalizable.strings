@@ -64,7 +64,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Could not fetch FAQs" = "FAQ를 불러올 수 없음";
 "Thanks for rating us." = "평가해 주셔서 감사합니다.";
 "Download" = "다운로드";
-"Please enter a valid email" = "유효한 이메일을 입력해 주세요.";
 "Message" = "메시지";
 "or" = "혹은";
 "Decline" = "거부";
@@ -155,3 +154,42 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Video" = "비디오";
 "File" = "파일";
 "Would you like to review the app?" = "앱을 평가 하시겠습니까?";
+
+"Sending" = "전송 중";
+"Failed to send" = "전송 실패";
+"Message from support by %@ on %@" = "지원에서 %@에 관해 %@(으)로 보낸 메시지";
+"Message from support on %@" = "지원에서 %@에 관해 보낸 메시지";
+"Your Reply on %@" = "%@에 관한 귀하의 답장";
+"Your Reply, Sending" = "귀하의 답장, 전송 중";
+"Your Reply, Failed to send" = "귀하의 답장, 전송 실패";
+"Retry Sending" = "재전송 중";
+"Image %@, Double Tap to Download" = "이미지 %@, 두 번 탭하고 다운로드하기";
+"Image, Downloading, %@ of %@" = "이미지, 다운로드 중, %@/%@";
+"Image, Double Tap to View" = "이미지, 두 번 탭하고 보기";
+"File, %@, %@, Double Tap to Download" = "파일, %@, %@, 두 번 탭하고 다운로드하기";
+"File, %@, Downloading %@ of %@" = "파일, %@, %@/%@ 다운로드 중";
+"File, %@, Double Tap to Open" = "파일, %@, 두 번 탭하고 열기";
+"Error" = "오류";
+"Enter a valid input" = "유효한 입력을 입력하십시오.";
+"Please enter a valid email" = "유효한 이메일을 입력해 주세요.";
+"Enter a valid number" = "유효한 번호를 입력하십시오.";
+"Network error" = "네트워크 오류";
+"Connecting..." = "연결 중 ...";
+"No internet connection" = "인터넷에 연결되지 않음";
+"Enter a valid email address" = "유효한 이메일 주소를 입력하십시오.";
+"Please enter a valid number" = "올바른 번호를 입력하십시오.";
+"Tap to retry" = "터치하여 재시도";
+"We are still trying to reach support. Please wait." = "우리는 여전히 지원을 얻으려고 노력하고 있습니다. 기다려주십시오.";
+"Please check your network connection." = "네트워크 연결을 확인하십시오.";
+"Sorry, something went wrong. This conversation cannot be continued." = "죄송합니다. 무엇인가 잘못되었습니다. 이 대화는 계속 될 수 없습니다.";
+"Authentication Failed" = "인증 실패";
+"Please try again later" = "나중에 다시 시도 해주십시오";
+"Something went wrong. Reconnecting..." = "뭔가 잘못 됐어. 다시 연결 중 ...";
+
+"FROM" = "에서";
+"Hold down your device's power and volume up buttons at the same time." = "기기의 전원 및 볼륨 높이기 버튼을 동시에 누르십시오.";
+"Enter your message" = "메시지 입력하기";
+"Back" = "뒤로";
+
+"Please enter a valid date." = "유효한 날짜를 입력하십시오.";
+"Enter a valid date" = "유효한 날짜 입력";

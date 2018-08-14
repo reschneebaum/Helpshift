@@ -64,7 +64,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Could not fetch FAQs" = "No s'han trobat Preguntes freqüents";
 "Thanks for rating us." = "Gràcies per enviar-nos la teva valoració.";
 "Download" = "Baixa";
-"Please enter a valid email" = "Introdueix una adreça electrònica vàlida";
 "Message" = "Missatge";
 "or" = "o";
 "Decline" = "Rebutja";
@@ -155,3 +154,42 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Video" = "Vídeo";
 "File" = "Dossier";
 "Would you like to review the app?" = "Voleu revisar l'aplicació?";
+
+"Sending" = "S\'està enviant";
+"Failed to send" = "No s\'ha pogut enviar";
+"Message from support by %@ on %@" = "Missatge del Servei d\'Atenció enviat per %@ el dia %@";
+"Message from support on %@" = "Missatge del Servei d\'Atenció enviat el dia %@";
+"Your Reply on %@" = "La teva resposta del dia %@";
+"Your Reply, Sending" = "La teva resposta, S\'està enviant";
+"Your Reply, Failed to send" = "La teva resposta, No s\'ha pogut enviar";
+"Retry Sending" = "Torna a provar l\'enviament";
+"Image %@, Double Tap to Download" = "Fitxer d\'imatge %@, Toca dues vegades per baixar-lo";
+"Image, Downloading, %@ of %@" = "Fitxer d\'imatge, Baixant, %@ de %@";
+"Image, Double Tap to View" = "Fitxer d\'imatge, Toca dues vegades per veure\'l";
+"File, %@, %@, Double Tap to Download" = "Fitxer %@, %@, Toca dues vegades per baixar-lo";
+"File, %@, Downloading %@ of %@" = "Fitxer, %@, Baixant %@ de %@";
+"File, %@, Double Tap to Open" = "Fitxer %@, Toca dues vegades per obrir-lo";
+"Error" = "Error=";
+"Enter a valid input" = "Introduïu una entrada vàlida";
+"Please enter a valid email" = "Introdueix una adreça electrònica vàlida";
+"Enter a valid number" = "Introduïu un número vàlid";
+"Network error" = "Error de connexió";
+"Connecting..." = "S'està connectant ...";
+"No internet connection" = "No hi ha connexió a Internet";
+"Enter a valid email address" = "Introdueix un correu electrònic vàlid";
+"Please enter a valid number" = "Introduïu un número vàlid";
+"Tap to retry" = "Toca per tornar-ho a provar";
+"We are still trying to reach support. Please wait." = "Encara estem intentant donar suport. Espereu.";
+"Please check your network connection." = "Comproveu la vostra connexió de xarxa.";
+"Sorry, something went wrong. This conversation cannot be continued." = "Ho sentim, alguna cosa ha anat malament. Aquesta conversa no es pot continuar.";
+"Authentication Failed" = "L'autenticació ha fallat";
+"Please try again later" = "Siusplau, intenta-ho més tard";
+"Something went wrong. Reconnecting..." = "Alguna cosa ha anat malament. Torna a connectar ...";
+
+"FROM" = "Des de";
+"Hold down your device's power and volume up buttons at the same time." = "Mantingueu premut el botó de poder i els botons de volum al mateix temps.";
+"Enter your message" = "Escriu el teu missatge";
+"Back" = "Enrere";
+
+"Please enter a valid date." = "Introdueix una data vàlida.";
+"Enter a valid date" = "Introdueix una data vàlida.";

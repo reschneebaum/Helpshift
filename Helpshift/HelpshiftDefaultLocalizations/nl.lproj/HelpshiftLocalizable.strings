@@ -64,7 +64,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Could not fetch FAQs" = "De FAQ's konden niet op worden gehaald";
 "Thanks for rating us." = "Bedankt voor je beoordeling.";
 "Download" = "Downloaden";
-"Please enter a valid email" = "Geef een geldig e-mailadres op";
 "Message" = "Bericht";
 "or" = "of";
 "Decline" = "Weigeren";
@@ -155,3 +154,42 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Video" = "Video";
 "File" = "het dossier";
 "Would you like to review the app?" = "Wilt u de app beoordelen?";
+
+"Sending" = "Verzendt";
+"Failed to send" = "Verzenden mislukt";
+"Message from support by %@ on %@" = "Bericht van de ondersteuning door %@ op %@";
+"Message from support on %@" = "Bericht van de ondersteuning op %@";
+"Your Reply on %@" = "Uw reactie op %@";
+"Your Reply, Sending" = "Uw reactie wordt verzonden";
+"Your Reply, Failed to send" = "Het verzenden van uw reactie is mislukt";
+"Retry Sending" = "Probeer opnieuw te verzenden";
+"Image %@, Double Tap to Download" = "Afbeelding %@, dubbelklik om te downloaden";
+"Image, Downloading, %@ of %@" = "Afbeelding, downloadt, %@ van %@";
+"Image, Double Tap to View" = "Afbeelding, dubbelklik om weer te geven";
+"File, %@, %@, Double Tap to Download" = "Bestand, %@, %@, dubbelklik om te downloaden";
+"File, %@, Downloading %@ of %@" = "Bestand, %@, downloadt %@ van %@";
+"File, %@, Double Tap to Open" = "Bestand, %@, dubbelklik om te openen";
+"Error" = "Fout";
+"Enter a valid input" = "Voer een geldige invoer in";
+"Please enter a valid email" = "Geef een geldig e-mailadres op";
+"Enter a valid number" = "Voer een geldig nummer in";
+"Network error" = "Netwerkfout";
+"Connecting..." = "Verbinding maken ...";
+"No internet connection" = "Geen internet verbinding";
+"Enter a valid email address" = "Voer een geldig e-mailadres in";
+"Please enter a valid number" = "Gelieve een geldig nummer invoeren";
+"Tap to retry" = "Tik om opnieuw te proberen";
+"We are still trying to reach support. Please wait." = "We proberen nog steeds ondersteuning te krijgen. Even geduld aub.";
+"Please check your network connection." = "Controleer uw netwerkverbinding.";
+"Sorry, something went wrong. This conversation cannot be continued." = "Sorry, er ging iets mis. Dit gesprek kan niet worden voortgezet.";
+"Authentication Failed" = "Verificatie mislukt";
+"Please try again later" = "Probeer het later opnieuw";
+"Something went wrong. Reconnecting..." = "Er is iets fout gegaan. Opnieuw verbinding maken ...";
+
+"FROM" = "VAN";
+"Hold down your device's power and volume up buttons at the same time." = "Houd de aan / uit-knoppen op het apparaat tegelijkertijd ingedrukt.";
+"Enter your message" = "Voer je bericht in";
+"Back" = "Terug";
+
+"Please enter a valid date." = "Voer een geldige datum in.";
+"Enter a valid date" = "Voer een geldige datum in";

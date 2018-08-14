@@ -1,6 +1,6 @@
 /*
  *    HelpshiftCampaigns.h
- *    SDK Version 6.4.1
+ *    SDK Version 7.1.1
  *
  *    Get the documentation at http://www.helpshift.com/docs
  *
@@ -17,7 +17,7 @@
 /**
  *  Campaigns API provider
  */
-@interface HelpshiftCampaigns : NSObject <HsApiProvider>{
+@interface HelpshiftCampaigns : NSObject <HsApiProvider> {
     BOOL isInitialized;
 }
 

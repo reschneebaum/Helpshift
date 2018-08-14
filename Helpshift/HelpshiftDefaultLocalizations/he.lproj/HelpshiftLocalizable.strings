@@ -64,7 +64,6 @@
 "Could not fetch FAQs" = "לא ניתן להביא שאלות נפוצות";
 "Thanks for rating us." = "תודה שדירגת אותנו.";
 "Download" = "הורד/הורידי";
-"Please enter a valid email" = "הזן/הזיני כתובת דוא\"ל תקפה";
 "Message" = "הודעה";
 "or" = "או";
 "Decline" = "דחה/דחי";
@@ -155,3 +154,42 @@
 "Video" = "וִידֵאוֹ";
 "File" = "קוֹבֶץ";
 "Would you like to review the app?" = "האם אתה רוצה לדרג את האפליקציה?";
+
+"Sending" = "שולח";
+"Failed to send" = "השליחה נכשלה";
+"Message from support by %@ on %@" = "הודעה מהתמיכה מאת %@ בשעה/תאריך %@";
+"Message from support on %@" = "הודעה מהתמיכה בשעה/תאריך %@";
+"Your Reply on %@" = "תשובתך בשעה/תאריך %@";
+"Your Reply, Sending" = "תשובתך, נשלחת";
+"Your Reply, Failed to send" = "תשובתך, השליחה נכשלה";
+"Retry Sending" = "ניסיון שליחה נוסף";
+"Image %@, Double Tap to Download" = "תמונה %@, להורדה הקש פעמיים";
+"Image, Downloading, %@ of %@" = "תמונה, מוריד, %@ מתוך %@";
+"Image, Double Tap to View" = "תמונה, לצפייה הקש פעמיים";
+"File, %@, %@, Double Tap to Download" = "קובץ %@, %@, להורדה הקש פעמיים";
+"File, %@, Downloading %@ of %@" = "קובץ, %@, מוריד %@ מתוך %@";
+"File, %@, Double Tap to Open" = "קובץ, %@, לפתיחה הקש פעמיים";
+"Error" = "שְׁגִיאָה";
+"Enter a valid input" = "הזן קלט חוקי";
+"Please enter a valid email" = "הזן/הזיני כתובת דוא”\ל תקפה";
+"Enter a valid number" = "הזן מספר חוקי";
+"Network error" = "בעיה ברשת";
+"Connecting..." = "מְקַשֵׁר...";
+"No internet connection" = "אין חיבור אינטרנט";
+"Enter a valid email address" = "הכנס כתובת אימייל תקינה";
+"Please enter a valid number" = "נא הכנס מספר תקף";
+"Tap to retry" = "הקש כדי לנסות שוב";
+"We are still trying to reach support. Please wait." = "אנחנו עדיין מנסים להגיע לתמיכה. המתן בבקשה.";
+"Please check your network connection." = "בדוק את חיבור הרשת שלך.";
+"Sorry, something went wrong. This conversation cannot be continued." = "מצטערים, משהו השתבש. לא ניתן להמשיך את השיחה.";
+"Authentication Failed" = "אימות נכשל";
+"Please try again later" = "בבקשה נסה שוב מאוחר יותר";
+"Something went wrong. Reconnecting..." = "משהו השתבש. מתחבר מחדש ...";
+
+"FROM" = "מ";
+"Hold down your device's power and volume up buttons at the same time." = "החזק את לחצני ההפעלה והגברת עוצמת הקול של המכשיר באותו זמן.";
+"Enter your message" = "הזן את הודעתך";
+"Back" = "הקודם";
+
+"Please enter a valid date." = "יש להזין תאריך תקף.";
+"Enter a valid date" = "הזן תאריך תקף";

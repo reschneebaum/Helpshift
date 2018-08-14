@@ -64,7 +64,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Could not fetch FAQs" = "Tidak dapat mengambil FAQ";
 "Thanks for rating us." = "Terima kasih telah memberi nilai.";
 "Download" = "Unduh";
-"Please enter a valid email" = "Masukkan alamat email yang sah";
 "Message" = "Pesan";
 "or" = "atau";
 "Decline" = "Tolak";
@@ -155,3 +154,42 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Video" = "Video";
 "File" = "Mengajukan";
 "Would you like to review the app?" = "Apakah Anda ingin menilai aplikasi?";
+
+"Sending" = "Mengirim";
+"Failed to send" = "Gagal mengirim";
+"Message from support by %@ on %@" = "Pesan dari dukungan oleh %@ pada %@";
+"Message from support on %@" = "Pesan dari dukungan pada %@";
+"Your Reply on %@" = "Balasan Anda pada %@";
+"Your Reply, Sending" = "Balasan Anda, Mengirim";
+"Your Reply, Failed to send" = "Balasan Anda, Gagal mengirim";
+"Retry Sending" = "Coba Mengirim Kembali";
+"Image %@, Double Tap to Download" = "Gambar %@, Ketuk Ganda untuk Mengunduh";
+"Image, Downloading, %@ of %@" = "Gambar, Mengunduh, %@ dari %@";
+"Image, Double Tap to View" = "Gambar, Ketuk Ganda untuk Menampilkan";
+"File, %@, %@, Double Tap to Download" = "File, %@, %@, Ketuk Ganda untuk Mengunduh";
+"File, %@, Downloading %@ of %@" = "File, %@, Mengunduh %@ dari %@";
+"File, %@, Double Tap to Open" = "File, %@, Ketuk Ganda untuk Membuka";
+"Error" = "Kesalahan";
+"Enter a valid input" = "Masukkan masukan yang valid";
+"Please enter a valid email" = "Masukkan alamat email yang sah";
+"Enter a valid number" = "Masukkan nomor yang valid";
+"Network error" = "Kesalahan jaringan";
+"Connecting..." = "Menghubungkan ...";
+"No internet connection" = "Tidak ada koneksi internet";
+"Enter a valid email address" = "Masukkan alamat email yang valid";
+"Please enter a valid number" = "Masukkan nomor yang valid";
+"Tap to retry" = "Ketuk untuk mencoba lagi";
+"We are still trying to reach support. Please wait." = "Kami masih berusaha meraih dukungan. Mohon tunggu.";
+"Please check your network connection." = "Periksa koneksi jaringan Anda.";
+"Sorry, something went wrong. This conversation cannot be continued." = "Maaf, ada yang tidak beres. Percakapan ini tidak dapat dilanjutkan.";
+"Authentication Failed" = "Otentikasi gagal";
+"Please try again later" = "Silakan coba lagi nanti";
+"Something went wrong. Reconnecting..." = "Ada yang salah. Berhubungan kembali ...";
+
+"FROM" = "DARI";
+"Hold down your device's power and volume up buttons at the same time." = "Tahan daya perangkat Anda dan tombol volume naik pada saat yang bersamaan.";
+"Enter your message" = "Tuliskan pesan Anda";
+"Back" = "Kembali";
+
+"Please enter a valid date." = "Silakan masukkan tanggal yang valid.";
+"Enter a valid date" = "Masukkan tanggal yang valid";

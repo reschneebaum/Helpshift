@@ -65,7 +65,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Could not fetch FAQs" = "無法取得常見問題集";
 "Thanks for rating us." = "感謝您對我們的評價。";
 "Download" = "下載";
-"Please enter a valid email" = "請輸入有效的電子郵件";
 "Message" = "訊息";
 "or" = "或";
 "Decline" = "拒絕";
@@ -155,3 +154,42 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Video" = "文件";
 "File" = "文件";
 "Would you like to review the app?" = "您要查看應用程式嗎？";
+
+"Sending" = "發送中";
+"Failed to send" = "發送失敗";
+"Message from support by %@ on %@" = "來自客戶支援的訊息（由%@於%@發送）";
+"Message from support on %@" = "來自客戶支援的訊息（發送於%@）";
+"Your Reply on %@" = "您%@的回覆";
+"Your Reply, Sending" = "您的回覆，發送中";
+"Your Reply, Failed to send" = "您的回覆，發送失敗";
+"Retry Sending" = "重試發送中";
+"Image %@, Double Tap to Download" = "圖像%@，雙點擊以下載";
+"Image, Downloading, %@ of %@" = "圖像，下載中，%@ / %@";
+"Image, Double Tap to View" = "圖像，雙點擊以視查";
+"File, %@, %@, Double Tap to Download" = "檔案，%@，%@，雙點擊以下載";
+"File, %@, Downloading %@ of %@" = "檔案，%@，正下載%@ / %@";
+"File, %@, Double Tap to Open" = "檔案，%@，雙點擊以打開";
+"Error" = "錯誤";
+"Enter a valid input" = "輸入一個有效的輸入";
+"Please enter a valid email" = "請輸入有效的電子郵件";
+"Enter a valid number" = "輸入一個有效的號碼";
+"Network error" = "網絡錯誤";
+"Connecting..." = "連接...";
+"No internet connection" = "沒有網絡連接";
+"Enter a valid email address" = "輸入一個有效的電子郵件地址";
+"Please enter a valid number" = "請輸入一個有效的號碼";
+"Tap to retry" = "點按即可重試";
+"We are still trying to reach support. Please wait." = "我們仍在努力達成支持。 請稍候。";
+"Please check your network connection." = "請檢查您的網絡連接。";
+"Sorry, something went wrong. This conversation cannot be continued." = "抱歉，出了一些問題。 這個談話不能繼續。";
+"Authentication Failed" = "驗證失敗";
+"Please try again later" = "請稍後再試";
+"Something went wrong. Reconnecting..." = "出了些問題。重新連接...";
+
+"FROM" = "從";
+"Hold down your device's power and volume up buttons at the same time." = "同時按住設備的電源和音量增大按鈕。";
+"Enter your message" = "輸入您的訊息";
+"Back" = "返回";
+
+"Please enter a valid date." = "請輸入有效的日期。";
+"Enter a valid date" = "輸入有效的日期";

@@ -64,7 +64,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Could not fetch FAQs" = "Nu s-au putut obține întrebări frecvente";
 "Thanks for rating us." = "Îți mulțumim pentru notare.";
 "Download" = "Descărcați";
-"Please enter a valid email" = "Introduceți o adresă de e-mail validă";
 "Message" = "Mesaj";
 "or" = "sau";
 "Decline" = "Refuz";
@@ -156,3 +155,42 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Video" = "Video";
 "File" = "Fişier";
 "Would you like to review the app?" = "Doriți să evaluați aplicația?";
+
+"Sending" = "Trimitere";
+"Failed to send" = "Trimitere eșuată";
+"Message from support by %@ on %@" = "Mesajul de la asistență de către %@ în %@";
+"Message from support on %@" = "Mesajul de la asistență în %@";
+"Your Reply on %@" = "Răspunsul dvs. în %@";
+"Your Reply, Sending" = "Răspunsul tău, trimitere";
+"Your Reply, Failed to send" = "Răspunsul tău, trimitere eșuată";
+"Retry Sending" = "Reîncercare trimitere";
+"Image %@, Double Tap to Download" = "Imaginea %@, atinge de două ori pentru a descărca";
+"Image, Downloading, %@ of %@" = "Imagine, descărcare, %@ din %@";
+"Image, Double Tap to View" = "Imagine, atinge de două ori pentru a descărca";
+"File, %@, %@, Double Tap to Download" = "Fișier, %@, %@, atinge de două ori pentru a descărca";
+"File, %@, Downloading %@ of %@" = "Fișier, %@ descărcare %@ din %@";
+"File, %@, Double Tap to Open" = "Fișier, %@, atinge de două ori pentru a deschide";
+"Error" = "Eroare";
+"Enter a valid input" = "Introduceți o intrare validă";
+"Please enter a valid email" = "Introduceți o adresă de e-mail validă";
+"Enter a valid number" = "Introduceți un număr valid";
+"Network error" = "Eroare de rețea";
+"Connecting..." = "Conectarea ...";
+"No internet connection" = "Fără conexiune internet";
+"Enter a valid email address" = "Introduceți o adresă de email validă";
+"Please enter a valid number" = "Introduceți un număr valid";
+"Tap to retry" = "Apasă pentru a reîncerca";
+"We are still trying to reach support. Please wait." = "Încă încercăm să ajungem la sprijin. Te rog asteapta.";
+"Please check your network connection." = "Verificați conexiunea la rețea.";
+"Sorry, something went wrong. This conversation cannot be continued." = "Scuze, ceva a mers greșit. Această conversație nu poate fi continuată.";
+"Authentication Failed" = "Autentificare esuata";
+"Please try again later" = "Vă rugăm să încercați din nou mai târziu";
+"Something went wrong. Reconnecting..." = "Ceva n-a mers bine. Reconectează ...";
+
+"FROM" = "DIN";
+"Hold down your device's power and volume up buttons at the same time." = "Țineți simultan butoanele de alimentare și de ridicare ale dispozitivului.";
+"Enter your message" = "Introduceţi mesajul dvs.";
+"Back" = "Înapoi";
+
+"Please enter a valid date." = "Vă rugăm să introduceţi o dată validă.";
+"Enter a valid date" = "Introduceţi o dată validă";

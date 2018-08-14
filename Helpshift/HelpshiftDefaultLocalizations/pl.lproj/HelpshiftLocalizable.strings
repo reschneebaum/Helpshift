@@ -64,7 +64,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Could not fetch FAQs" = "Nie udało się pobrać listy najczęściej zadawanych pytań";
 "Thanks for rating us." = "Dziękujemy za wystawienie nam oceny.";
 "Download" = "Pobierz";
-"Please enter a valid email" = "Prosimy podać stosowny adres e-mail";
 "Message" = "Wiadomość";
 "or" = "lub";
 "Decline" = "Odmowa";
@@ -155,3 +154,42 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Video" = "Wideo";
 "File" = "Plik";
 "Would you like to review the app?" = "Chcesz ocenić aplikację?";
+
+"Sending" = "Przesyłanie";
+"Failed to send" = "Nie udało się przesłać";
+"Message from support by %@ on %@" = "Nowa wiadomość od działu pomocy autorstwa: %@ z dnia %@";
+"Message from support on %@" = "Nowa wiadomość od działu pomocy z dnia %@";
+"Your Reply on %@" = "Twoja odpowiedź z dnia %@";
+"Your Reply, Sending" = "Trwa wysyłanie twojej odpowiedzi";
+"Your Reply, Failed to send" = "Nie udało się przesłać twojej odpowiedzi";
+"Retry Sending" = "Spróbuj przesłać ponownie";
+"Image %@, Double Tap to Download" = "Obraz %@ – stuknij dwukrotnie, aby pobrać";
+"Image, Downloading, %@ of %@" = "Obraz, pobieranie %@ z %@";
+"Image, Double Tap to View" = "Obraz  – stuknij dwukrotnie, aby wyświetlić";
+"File, %@, %@, Double Tap to Download" = "Plik, %@, %@ – stuknij dwukrotnie, aby pobrać";
+"File, %@, Downloading %@ of %@" = "Plik, %@, pobieranie %@ z %@";
+"File, %@, Double Tap to Open" = "Plik, %@  – stuknij dwukrotnie, aby otworzyć";
+"Error" = "Błąd";
+"Enter a valid input" = "Wprowadź poprawne dane wejściowe";
+"Please enter a valid email" = "Prosimy podać stosowny adres e-mail";
+"Enter a valid number" = "Wpisz prawidłową liczbę";
+"Network error" = "Błąd sieci";
+"Connecting..." = "Złączony...";
+"No internet connection" = "Brak połączenia z internetem";
+"Enter a valid email address" = "Wprowadź poprawny adres e-mail";
+"Please enter a valid number" = "Proszę wprowadzić poprawny numer";
+"Tap to retry" = "Dotknij, aby powtórzyć";
+"We are still trying to reach support. Please wait." = "Wciąż próbujemy uzyskać wsparcie. Proszę czekać.";
+"Please check your network connection." = "Sprawdź połączenie sieciowe.";
+"Sorry, something went wrong. This conversation cannot be continued." = "Przepraszam, coś poszło nie tak. Ta rozmowa nie może być kontynuowana.";
+"Authentication Failed" = "Uwierzytelnianie nie powiodło się";
+"Please try again later" = "Spróbuj ponownie później";
+"Something went wrong. Reconnecting..." = "Coś poszło nie tak. Ponowne łączenie ...";
+
+"FROM" = "OD";
+"Hold down your device's power and volume up buttons at the same time." = "Przytrzymaj przyciski zasilania i zwiększania głośności urządzenia w tym samym czasie.";
+"Enter your message" = "Wprowadź treść wiadomości";
+"Back" = "Wstecz";
+
+"Please enter a valid date." = "Prosimy wprowadzić stosowną datę.";
+"Enter a valid date" = "Wprowadź stosowną datę";

@@ -64,7 +64,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Could not fetch FAQs" = "GYIK-ek lekérése sikertelen";
 "Thanks for rating us." = "Köszönjük, hogy értékelte alkalmazásunkat.";
 "Download" = "Letöltés";
-"Please enter a valid email" = "Kérjük, érvényes e-mail címet adjon meg";
 "Message" = "Üzenet";
 "or" = "vagy";
 "Decline" = "Elutasítás";
@@ -155,3 +154,42 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Video" = "Videó";
 "File" = "fájl";
 "Would you like to review the app?" = "Szeretné értékelni az alkalmazást?";
+
+"Sending" = "Küldés";
+"Failed to send" = "A küldés sikereteken";
+"Message from support by %@ on %@" = "%@ üzenete az ügyfélszolgálattól ekkor: %@";
+"Message from support on %@" = "Üzenet az ügyfélszolgálattól ekkor: %@";
+"Your Reply on %@" = "Az Ön válasza ekkor: %@";
+"Your Reply, Sending" = "Az Ön válasza, küldés";
+"Your Reply, Failed to send" = "Az Ön válasza, a küldés sikertelen";
+"Retry Sending" = "Újraküldés";
+"Image %@, Double Tap to Download" = "%@ kép, dupla kattintás a letöltéshez";
+"Image, Downloading, %@ of %@" = "Kép, letöltés, %@/%@";
+"Image, Double Tap to View" = "Kép, dupla kattintás a megtekintéshez";
+"File, %@, %@, Double Tap to Download" = "Fájl, %@, %@, dupla kattintás a letöltéshez";
+"File, %@, Downloading %@ of %@" = "Fájl, %@, letöltés %@/%@";
+"File, %@, Double Tap to Open" = "Fájl, %@, dupla kattintás a megnyitáshoz";
+"Error" = "Hiba";
+"Enter a valid input" = "Adjon meg egy érvényes bevitelt";
+"Please enter a valid email" = "Kérjük, érvényes e-mail címet adjon meg";
+"Enter a valid number" = "Adjon meg érvényes számot";
+"Network error" = "Hálózati hiba";
+"Connecting..." = "Csatlakozás ...";
+"No internet connection" = "Nincs internetkapcsolat";
+"Enter a valid email address" = "Adjon meg egy érvényes email címet";
+"Please enter a valid number" = "Kérjük, adjon meg érvényes számot";
+"Tap to retry" = "Újrapróbáláshoz érintsd meg";
+"We are still trying to reach support. Please wait." = "Még mindig próbáljuk elérni a támogatást. Kérlek várj.";
+"Please check your network connection." = "Ellenőrizze a hálózati kapcsolatot.";
+"Sorry, something went wrong. This conversation cannot be continued." = "Elnézést, valami nem ment jól. Ezt a beszélgetést nem lehet folytatni.";
+"Authentication Failed" = "Sikertelen volt a hitelesítés";
+"Please try again later" = "Kérlek, próbáld újra később";
+"Something went wrong. Reconnecting..." = "Valami elromlott. Újracsatlakozás...";
+
+"FROM" = "TÓL TŐL";
+"Hold down your device's power and volume up buttons at the same time." = "Tartsa lenyomva a készülék teljesítmény- és hangerő-növelő gombjait egyszerre.";
+"Enter your message" = "Adja meg üzenetét";
+"Back" = "Vissza";
+
+"Please enter a valid date." = "Kérjük, érvényes időpontot adjon meg.";
+"Enter a valid date" = "Adjon meg egy érvényes időpontot";

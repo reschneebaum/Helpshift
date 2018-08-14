@@ -1,6 +1,6 @@
 /*
  *    HelpshiftSupport.h
- *    SDK Version 6.4.1
+ *    SDK Version 7.1.1
  *
  *    Get the documentation at http://www.helpshift.com/docs
  *
@@ -17,6 +17,12 @@ typedef enum HelpshiftSupportAlertToRateAppAction
     HelpshiftSupportAlertToRateAppActionSuccess,
     HelpshiftSupportAlertToRateAppActionFail
 } HelpshiftSupportAlertToRateAppAction;
+
+typedef enum HelpshiftAuthenticationFailureReason
+{
+    AuthTokenNotProvided = 0,
+    InvalidAuthToken
+} HelpshiftAuthenticationFailureReason;
 
 /**
  * Block which accepts zero arguments and returns an instance of Dictionary.
@@ -94,7 +100,7 @@ static NSString *HelpshiftSupportSingleFAQFlow = @"singleFaqFlow";
 
 @protocol HelpshiftSupportDelegate;
 
-@interface HelpshiftSupport : NSObject <HsApiProvider>{
+@interface HelpshiftSupport : NSObject <HsApiProvider> {
     id <HelpshiftSupportDelegate> delegate;
 }
 
@@ -133,7 +139,7 @@ static NSString *HelpshiftSupportSingleFAQFlow = @"singleFaqFlow";
  * @deprecated Deprecated in SDK version 6.1.0.
  */
 
-+ (BOOL) setSDKLanguage:(NSString *)languageCode __deprecated_msg("Use setLanguage: instead");
++ (BOOL) setSDKLanguage:(NSString *) languageCode __deprecated_msg("Use setLanguage: instead");
 
 /** Change the SDK language. By default, the device's prefered language is used.
  * The call will fail in the following cases :
@@ -269,17 +275,18 @@ static NSString *HelpshiftSupportSingleFAQFlow = @"singleFaqFlow";
  *
  * @deprecated Deprecated in SDK version 6.2.0
  */
-+ (void) showAlertToRateAppWithURL:(NSString *)url withCompletionBlock:(HelpshiftSupportAppRatingAlertViewCompletionBlock)completionBlock __deprecated_msg("This API is non operational and deprecated");
++ (void) showAlertToRateAppWithURL:(NSString *)url withCompletionBlock:(HelpshiftSupportAppRatingAlertViewCompletionBlock) completionBlock __deprecated_msg("This API is non operational and deprecated");
 
 /** Set an user identifier for your users.
  *
  * This is part of additional user configuration. The user identifier will be passed through to the admin dashboard as "User ID" under customer info.
  *  @param userIdentifier A string to identify your users.
  *
+ *  @deprecated Deprecated in SDK version 7.0.0.
  *  Available in SDK version 5.0.0 or later
  */
 
-+ (void) setUserIdentifier:(NSString *)userIdentifier;
++ (void) setUserIdentifier:(NSString *) userIdentifier  __deprecated_msg("Use login: instead");
 
 /** Add extra debug information regarding user-actions.
  *
@@ -348,7 +355,7 @@ static NSString *HelpshiftSupportSingleFAQFlow = @"singleFaqFlow";
  * @deprecated Deprecated in SDK version 6.1.0
  */
 
-+ (NSInteger) getNotificationCountFromRemote:(BOOL)isRemote __deprecated_msg("Use requestUnreadMessagesCount instead.");
++ (NSInteger) getNotificationCountFromRemote:(BOOL) isRemote __deprecated_msg("Use requestUnreadMessagesCount instead.");
 
 /** Get the notification count for replies to new conversations.
  *
@@ -497,7 +504,7 @@ static NSString *HelpshiftSupportSingleFAQFlow = @"singleFaqFlow";
  *
  *  @deprecated Deprecated in SDK version 6.1.0
  */
-+ (UINavigationController *) dynamicFormWithTitle:(NSString *)title andFlows:(NSArray *)flows __deprecated_msg("Use requestDynamicFormWithTitle:andFlows: instead");
++ (UINavigationController *) dynamicFormWithTitle:(NSString *)title andFlows:(NSArray *) flows __deprecated_msg("Use requestDynamicFormWithTitle:andFlows: instead");
 
 /**
  *  Requests a Dynamic Form navigation controller to be returned in
@@ -644,9 +651,9 @@ static NSString *HelpshiftSupportSingleFAQFlow = @"singleFaqFlow";
 
 - (UIViewController *) dynamicFormWithTitle:(NSString *)title andFlows:(NSArray *)flows __deprecated;
 
-+ (void) handleRemoteNotification:(NSDictionary *)notification withController:(UIViewController *)viewController __deprecated_msg("Use HelpshiftCore's handleNotificationWithUserInfoDictionary: instead");
++ (void) handleRemoteNotification:(NSDictionary *)notification withController:(UIViewController *) viewController __deprecated_msg("Use HelpshiftCore's handleNotificationWithUserInfoDictionary: instead");
 
-+ (void) handleLocalNotification:(UILocalNotification *)notification withController:(UIViewController *)viewController __deprecated_msg("Use HelpshiftCore's handleNotificationWithUserInfoDictionary: instead");
++ (void) handleLocalNotification:(UILocalNotification *)notification withController:(UIViewController *) viewController __deprecated_msg("Use HelpshiftCore's handleNotificationWithUserInfoDictionary: instead");
 
 /**
  *  This is a wrapper over NSLog. Use this API as a replacement over NSLog for the logs that need to be added as meta data while filing an issue.
@@ -783,5 +790,26 @@ static NSString *HelpshiftSupportSingleFAQFlow = @"singleFaqFlow";
  * @available Availalbe in SDK version 6.1.0 or later
  */
 - (void) didCreateDynamicForm:(UINavigationController *)form;
+
+/**
+ * Optional delegate method that gets called when the user authentication fails.
+ * Whenever you receive this call, You should be calling the login API for the given user with valid authToken.
+ * @code
+ * - (void)authenticationFailedForUser:(HelpshiftUser *)user withReason:(HelpshiftAuthenticationFailureReason)reason {
+ * NSString *vaildAuthToken = @"fetch-new-valid-auth-token"; // fetch the valid auth token from your server
+ * HelpshiftUserBuilder *userBuilder = [[HelpshiftUserBuilder alloc] initWithIdentifier:user.identifier andEmail:user.email];
+ * userBuilder.name = user.name;
+ * userBuilder.authToken = vaildAuthToken;
+ *
+ * [HelpshiftCore loginWithUser:userBuilder.build];
+ * }
+ * @endcode
+ *
+ * @param user The logged-in user for which the authentication failed
+ * @param reason The reason for authentication failure
+ *
+ * @available Availalbe in SDK version 7.0.0 or later
+ */
+- (void) authenticationFailedForUser:(HelpshiftUser *)user withReason:(HelpshiftAuthenticationFailureReason)reason;
 
 @end

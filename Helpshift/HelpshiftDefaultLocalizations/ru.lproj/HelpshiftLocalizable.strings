@@ -64,7 +64,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Could not fetch FAQs" = "Не удалось найти вопросы/ответы (ЧаВо)";
 "Thanks for rating us." = "Спасибо за оценку!";
 "Download" = "Загрузка";
-"Please enter a valid email" = "Введите действительный адрес e-mail";
 "Message" = "Сообщение";
 "or" = "или";
 "Decline" = "Отклонить";
@@ -155,3 +154,42 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Video" = "видео";
 "File" = "файл";
 "Would you like to review the app?" = "Вы хотите оценить приложение?";
+
+"Sending" = "Отправка";
+"Failed to send" = "Не удалось отправить";
+"Message from support by %@ on %@" = "Сообщение службы поддержки от %@ в %@";
+"Message from support on %@" = "Сообщение службы поддержки в %@";
+"Your Reply on %@" = "Ваш ответ в %@";
+"Your Reply, Sending" = "Ваш ответ, отправка";
+"Your Reply, Failed to send" = "Ваш ответ, не удалось отправить";
+"Retry Sending" = "Повторная отправка";
+"Image %@, Double Tap to Download" = "Изображение %@, нажмите дважды для загрузки";
+"Image, Downloading, %@ of %@" = "Изображение, загружается, %@ из %@";
+"Image, Double Tap to View" = "Изображение, нажмите дважды для просмотра";
+"File, %@, %@, Double Tap to Download" = "Файл, %@, %@, нажмите дважды для загрузки";
+"File, %@, Downloading %@ of %@" = "Файл, %@, загружается %@ из %@";
+"File, %@, Double Tap to Open" = "Файл, %@, нажмите дважды, чтобы открыть";
+"Error" = "ошибка";
+"Enter a valid input" = "Введите действительный ввод";
+"Please enter a valid email" = "Введите действительный адрес e-mail";
+"Enter a valid number" = "Введите действительный номер";
+"Network error" = "Ошибка сети";
+"Connecting..." = "Подключение ...";
+"No internet connection" = "Нет соединения с интернетом";
+"Enter a valid email address" = "Введите действительный адрес электронной почты";
+"Please enter a valid number" = "пожалуйста введите правильное число";
+"Tap to retry" = "Нажмите, чтобы повторить попытку";
+"We are still trying to reach support. Please wait." = "Мы все еще пытаемся достичь поддержки. Пожалуйста, подождите.";
+"Please check your network connection." = "Проверьте подключение к сети.";
+"Sorry, something went wrong. This conversation cannot be continued." = "Извините, что-то пошло не так. Этот разговор не может быть продолжен.";
+"Authentication Failed" = "Ошибка аутентификации";
+"Please try again later" = "Пожалуйста, повторите попытку позже";
+"Something went wrong. Reconnecting..." = "Что-то пошло не так. Воссоединение ...";
+
+"FROM" = "ИЗ";
+"Hold down your device's power and volume up buttons at the same time." = "Одновременно удерживайте кнопки питания и увеличения вверх.";
+"Enter your message" = "Введите свое сообщение";
+"Back" = "Назад";
+
+"Please enter a valid date." = "Введите действительную дату.";
+"Enter a valid date" = "Введите действительную дату";

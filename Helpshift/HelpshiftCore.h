@@ -1,6 +1,6 @@
 /*
  *    HelpshiftCore.h
- *    SDK Version 6.4.1
+ *    SDK Version 7.1.1
  *
  *    Get the documentation at http://www.helpshift.com/docs
  *
@@ -8,31 +8,14 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
-
-@protocol HsApiProvider <NSObject>
-- (void) _installForApiKey:(NSString *)apiKey domainName:(NSString *)domainName appID:(NSString *)appID;
-- (void) _installForApiKey:(NSString *)apiKey domainName:(NSString *)domainName appID:(NSString *)appID withOptions:(NSDictionary *)optionsDictionary;
-
-- (BOOL) _loginWithIdentifier:(NSString *)identifier withName:(NSString *)name andEmail:(NSString *)email;
-- (BOOL) _logout;
-- (void) _setName:(NSString *)name andEmail:(NSString *)email;
-- (void) _registerDeviceToken:(NSData *)deviceToken;
-- (BOOL) _handleRemoteNotification:(NSDictionary *)notification withController:(UIViewController *)viewController;
-- (BOOL) _handleRemoteNotification:(NSDictionary *)notification isAppLaunch:(BOOL)isAppLaunch withController:(UIViewController *)viewController;
-- (BOOL) _handleLocalNotificationWithUserInfoDictionary:(NSDictionary *)userInfo withController:(UIViewController *)viewController;
-- (void) _handleInteractiveRemoteNotification:(NSDictionary *)notification forAction:(NSString *)actionIdentifier completionHandler:(void (^)())completionHandler;
-- (void) _handleInteractiveLocalNotification:(NSDictionary *)notification forAction:(NSString *)actionIdentifier completionHandler:(void (^)())completionHandler;
-- (void) _handleEventsForBackgroundURLSession:(NSString *)identifier completionHandler:(void (^)())completionHandler;
-- (BOOL) _setSDKLanguage:(NSString *)langCode;
-
-@end
+@protocol HsApiProvider;
 
 typedef enum HsAddFAQsToDeviceSearch
 {
     HsAddFaqsToDeviceSearchOnInstall = 0,
     HsAddFaqsToDeviceSearchAfterViewingFAQs,
     HsAddFaqsToDeviceSearchNever
-}HsAddFAQsToDeviceSearch;
+} HsAddFAQsToDeviceSearch;
 
 typedef enum HsOperator
 {
@@ -111,24 +94,43 @@ typedef enum HsEnableContactUs
 @end
 
 @interface HelpshiftAPIConfigBuilder : NSObject
-@property (nonatomic, assign) BOOL gotoConversationAfterContactUs;
 @property (nonatomic, assign) BOOL presentFullScreenOniPad;
-@property (nonatomic, assign) BOOL requireEmail;
-@property (nonatomic, assign) BOOL hideNameAndEmail;
 @property (nonatomic, assign) BOOL enableFullPrivacy;
-@property (nonatomic, assign) BOOL showSearchOnNewConversation;
-@property (nonatomic, assign) BOOL showConversationResolutionQuestion;
 @property (nonatomic, assign) BOOL showConversationInfoScreen;
-@property (nonatomic, assign) BOOL enableTypingIndicator;
 @property (nonatomic, assign) HsEnableContactUs enableContactUs;
-@property (strong, nonatomic) NSString *conversationPrefillText;
 @property (strong, nonatomic) NSArray *customContactUsFlows;
 @property (strong, nonatomic) HelpshiftFAQFilter *withTagsMatching;
 @property (strong, nonatomic) HelpshiftSupportMetaData *customMetaData;
 @property (strong, nonatomic) NSDictionary *customIssueFields;
 @property (strong, nonatomic) NSDictionary *extraConfig;
+@property (nonatomic, assign) BOOL gotoConversationAfterContactUs __deprecated_msg("This config is applicable only for form based issue filing experience which is deprecated from SDK version 7.0.0.");
+@property (nonatomic, assign) BOOL requireEmail __deprecated_msg("This config is applicable only for form based issue filing experience which is deprecated from SDK version 7.0.0.");
+@property (nonatomic, assign) BOOL hideNameAndEmail __deprecated_msg("This config is applicable only for form based issue filing experience which is deprecated from SDK version 7.0.0.");
+@property (nonatomic, assign) BOOL showSearchOnNewConversation __deprecated_msg("This config is applicable only for form based issue filing experience which is deprecated from SDK version 7.0.0.");
+@property (strong, nonatomic) NSString *conversationPrefillText __deprecated_msg("This config is applicable only for form based issue filing experience which is deprecated from SDK version 7.0.0.");
+@property (nonatomic, assign) BOOL showConversationResolutionQuestion __deprecated_msg("This config is now deprecated. Please turn On/Off this config from app settings (In App SDK configuration page on Admin dashboard)");
+@property (nonatomic, assign) BOOL enableTypingIndicator __deprecated_msg("This config is now deprecated. Please turn On/Off this config from app settings (In App SDK configuration page on Admin dashboard)");
 
 - (HelpshiftAPIConfig *) build;
+@end
+
+@interface HelpshiftUser : NSObject
+- (id) init NS_UNAVAILABLE;
+@property (readonly, copy, nonatomic) NSString *identifier;
+@property (readonly, copy, nonatomic) NSString *email;
+@property (readonly, copy, nonatomic) NSString *name;
+@property (readonly, copy, nonatomic) NSString *authToken;
+@end
+
+@interface HelpshiftUserBuilder : NSObject
+@property (readonly, strong, nonatomic) NSString *identifier;
+@property (readonly, strong, nonatomic) NSString *email;
+@property (strong, nonatomic) NSString *name;
+@property (strong, nonatomic) NSString *authToken;
+
+- (id) init NS_UNAVAILABLE;
+- (id) initWithIdentifier:(NSString *)identifier andEmail:(NSString *)email;
+- (HelpshiftUser *) build;
 @end
 
 /**
@@ -174,14 +176,22 @@ typedef enum HsEnableContactUs
  */
 
 + (void) installForApiKey:(NSString *)apiKey domainName:(NSString *)domainName appID:(NSString *)appID withConfig:(HelpshiftInstallConfig *)configObject;
+
 /** Login a user with a given identifier
  * The identifier uniquely identifies the user. Name and email are optional.
  * @param identifier The unique identifier of the user.
  * @param name The name of the user.
  * @param email The email of the user.
- * @available Available in SDK version 5.0.0 or later
+ * @deprecated Deprecated in SDK version 7.0.0.
  */
-+ (void) loginWithIdentifier:(NSString *)identifier withName:(NSString *)name andEmail:(NSString *)email;
++ (void) loginWithIdentifier:(NSString *)identifier withName:(NSString *)name andEmail:(NSString *) email __deprecated_msg("Use login: instead");
+
+/** Login a user with a given identifier or email.
+ * The identifier or email uniquely identify the user. Name and authToken are optional.
+ * @param user The HelpshiftUser object which contains all the information about a user such as identifier, name, email, authToken.
+ * @available Available in SDK version 7.0.0 or later
+ */
++ (void) login:(HelpshiftUser *)user;
 
 /** Logout the currently logged in user
  * After logout, Helpshift falls back to the default device login.
@@ -189,13 +199,23 @@ typedef enum HsEnableContactUs
  */
 + (void) logout;
 
+/**
+ * Delete the anonymous user data
+ * @available Available in SDK version 7.0.0 or later
+ */
++ (void) clearAnonymousUser;
+
 /** Set the name and email of the application user.
  *   @param name The name of the user.
  *   @param email The email address of the user.
+ *
+ *   NOTE: This API will not update the name & email provided from login API.
+ *   Data from this API will be used to pre-fill name and email fields in the conversation form and also updates name and email property in campaigns.
  *   @available Available in SDK version 5.0.0 or later
+ *   @deprecated Deprecated in SDK version 7.0.0.
  */
 
-+ (void) setName:(NSString *)name andEmail:(NSString *)email;
++ (void) setName:(NSString *)name andEmail:(NSString *) email __deprecated_msg("Use login: instead");
 
 /** Register the deviceToken to enable push notifications
  * To enable push notifications in the Helpshift iOS SDK, set the Push Notifications’ deviceToken using this method inside your application:didRegisterForRemoteNotificationsWithDeviceToken application delegate.
@@ -222,7 +242,7 @@ typedef enum HsEnableContactUs
  *  @return BOOL value indicating whether Helpshift handled this push notification.
  *  @available Available in SDK version 6.4.0 or later
  */
-+ (BOOL) handleNotificationResponseWithActionIdentifier:(NSString *)actionIdentifier userInfo:(NSDictionary *)userInfo completionHandler:(void (^)())completionHandler;
++ (BOOL) handleNotificationResponseWithActionIdentifier:(NSString *)actionIdentifier userInfo:(NSDictionary *)userInfo completionHandler:(void (^)(void))completionHandler;
 
 /**
  *  If an app is woken up in the background in response to a background session being completed, call this API from the
@@ -231,7 +251,7 @@ typedef enum HsEnableContactUs
  *  @param completionHandler completion handler
  *  @return BOOL value indicating whether Helpshift handled this push notification.
  */
-+ (BOOL) handleEventsForBackgroundURLSession:(NSString *)identifier completionHandler:(void (^)())completionHandler;
++ (BOOL) handleEventsForBackgroundURLSession:(NSString *)identifier completionHandler:(void (^)(void))completionHandler;
 
 /** Change the SDK language. By default, the device's prefered language is used.
  * The call will fail in the following cases :
@@ -257,7 +277,7 @@ typedef enum HsEnableContactUs
  * @available Available in SDK version 5.5.0 or later
  * @deprecated Deprecated in SDK version 6.1.0.
  */
-+ (BOOL) setSDKLanguage:(NSString *)languageCode __deprecated_msg("Use setLanguage: instead");
++ (BOOL) setSDKLanguage:(NSString *) languageCode __deprecated_msg("Use setLanguage: instead");
 
 /**
  *  Pass along a notification to the Helpshift SDK to handle
@@ -267,7 +287,7 @@ typedef enum HsEnableContactUs
  *
  *  @return BOOL value indicating whether Helpshift handled this push notification.
  */
-+ (BOOL) handleRemoteNotification:(NSDictionary *)notification withController:(UIViewController *)viewController __deprecated_msg("Use handleNotificationWithUserInfoDictionary:isAppLaunch:withController: instead");
++ (BOOL) handleRemoteNotification:(NSDictionary *)notification withController:(UIViewController *) viewController __deprecated_msg("Use handleNotificationWithUserInfoDictionary:isAppLaunch:withController: instead");
 
 /**
  *  Pass along a notification to the Helpshift SDK to handle
@@ -278,7 +298,7 @@ typedef enum HsEnableContactUs
  *
  *  @return BOOL value indicating whether Helpshift handled this push notification.
  */
-+ (BOOL) handleRemoteNotification:(NSDictionary *)notification isAppLaunch:(BOOL)isAppLaunch withController:(UIViewController *)viewController __deprecated_msg("Use handleNotificationWithUserInfoDictionary:isAppLaunch:withController: instead");
++ (BOOL) handleRemoteNotification:(NSDictionary *)notification isAppLaunch:(BOOL)isAppLaunch withController:(UIViewController *) viewController __deprecated_msg("Use handleNotificationWithUserInfoDictionary:isAppLaunch:withController: instead");
 
 /**
  *  Pass along a local notification to the Helpshift SDK
@@ -288,7 +308,7 @@ typedef enum HsEnableContactUs
  *
  *  @return BOOL value indicating whether Helpshift handled this push notification.
  */
-+ (BOOL) handleLocalNotification:(UILocalNotification *)notification withController:(UIViewController *)viewController __deprecated_msg("Use handleNotificationWithUserInfoDictionary:isAppLaunch:withController: instead");
++ (BOOL) handleLocalNotification:(UILocalNotification *)notification withController:(UIViewController *) viewController __deprecated_msg("Use handleNotificationWithUserInfoDictionary:isAppLaunch:withController: instead");
 
 /**
  *  Pass along an interactive local notification to the Helpshift SDK
@@ -299,7 +319,7 @@ typedef enum HsEnableContactUs
  *
  *  @return BOOL value indicating whether Helpshift handled this push notification.
  */
-+ (BOOL) handleInteractiveLocalNotification:(UILocalNotification *)notification forAction:(NSString *)actionIdentifier completionHandler:(void (^)())completionHandler  __deprecated_msg("Use handleInteractiveLocalNotificationWithUserInfoDictionary:forAction:completionHandler: instead");
++ (BOOL) handleInteractiveLocalNotification:(UILocalNotification *)notification forAction:(NSString *)actionIdentifier completionHandler:(void (^)(void)) completionHandler __deprecated_msg("Use handleInteractiveLocalNotificationWithUserInfoDictionary:forAction:completionHandler: instead");
 
 /**
  *  Pass along an interactive notification to the Helpshift SDK
@@ -310,7 +330,7 @@ typedef enum HsEnableContactUs
  *
  *  @return BOOL value indicating whether Helpshift handled this push notification.
  */
-+ (BOOL) handleInteractiveRemoteNotification:(NSDictionary *)notification forAction:(NSString *)actionIdentifier completionHandler:(void (^)())completionHandler __deprecated_msg("Use handleNotificationResponseWithActionIdentifier:userInfo:completionHandler: instead");
++ (BOOL) handleInteractiveRemoteNotification:(NSDictionary *)notification forAction:(NSString *)actionIdentifier completionHandler:(void (^)(void)) completionHandler __deprecated_msg("Use handleNotificationResponseWithActionIdentifier:userInfo:completionHandler: instead");
 
 /**
  *  Pass along an interactive local notification's userInfo to the Helpshift SDK
@@ -321,7 +341,26 @@ typedef enum HsEnableContactUs
  *
  *  @return BOOL value indicating whether Helpshift handled this push notification.
  */
-+ (BOOL) handleInteractiveLocalNotificationWithUserInfoDictionary:(NSDictionary *)userInfo forAction:(NSString *)actionIdentifier completionHandler:(void (^)())completionHandler __deprecated_msg("Use handleNotificationResponseWithActionIdentifier:userInfo:completionHandler: instead");
++ (BOOL) handleInteractiveLocalNotificationWithUserInfoDictionary:(NSDictionary *)userInfo forAction:(NSString *)actionIdentifier completionHandler:(void (^)(void)) completionHandler __deprecated_msg("Use handleNotificationResponseWithActionIdentifier:userInfo:completionHandler: instead");
 
 
 @end
+
+@protocol HsApiProvider <NSObject>
+- (void) _installForApiKey:(NSString *)apiKey domainName:(NSString *)domainName appID:(NSString *)appID;
+- (void) _installForApiKey:(NSString *)apiKey domainName:(NSString *)domainName appID:(NSString *)appID withConfig:(HelpshiftInstallConfig *)configObject;
+- (BOOL) _login:(HelpshiftUser *)user;
+- (BOOL) _logout;
+- (BOOL) _clearAnonymousUser;
+- (void) _setName:(NSString *)name andEmail:(NSString *)email;
+- (void) _registerDeviceToken:(NSData *)deviceToken;
+- (BOOL) _handleRemoteNotification:(NSDictionary *)notification withController:(UIViewController *)viewController;
+- (BOOL) _handleRemoteNotification:(NSDictionary *)notification isAppLaunch:(BOOL)isAppLaunch withController:(UIViewController *)viewController;
+- (BOOL) _handleLocalNotificationWithUserInfoDictionary:(NSDictionary *)userInfo withController:(UIViewController *)viewController;
+- (void) _handleInteractiveRemoteNotification:(NSDictionary *)notification forAction:(NSString *)actionIdentifier completionHandler:(void (^)(void))completionHandler;
+- (void) _handleInteractiveLocalNotification:(NSDictionary *)notification forAction:(NSString *)actionIdentifier completionHandler:(void (^)(void))completionHandler;
+- (void) _handleEventsForBackgroundURLSession:(NSString *)identifier completionHandler:(void (^)(void))completionHandler;
+- (BOOL) _setSDKLanguage:(NSString *)langCode;
+
+@end
+

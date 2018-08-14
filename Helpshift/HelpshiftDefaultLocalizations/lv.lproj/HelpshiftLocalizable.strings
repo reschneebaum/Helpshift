@@ -64,7 +64,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Could not fetch FAQs" = "BUJ nebija iespējams izgūt";
 "Thanks for rating us." = "Paldies, ka sniedzāt vērtējumu par mums.";
 "Download" = "Lejupielādēt";
-"Please enter a valid email" = "Lūdzu, ievadiet derīgu e-pastu";
 "Message" = "Ziņojums";
 "or" = "vai";
 "Decline" = "Noraidīt";
@@ -155,3 +154,42 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Video" = "Video";
 "File" = "Fails";
 "Would you like to review the app?" = "Vai vēlaties pārskatīt lietotni?";
+
+"Sending" = "Sūta";
+"Failed to send" = "Neizdevās nosūtīt";
+"Message from support by %@ on %@" = "Atbalsta dienesta ziņa no %@, datēta ar %@";
+"Message from support on %@" = "Atbalsta dienesta ziņa, datēta ar %@";
+"Your Reply on %@" = "Jūsu atbilde, datēta ar %@";
+"Your Reply, Sending" = "Jūsu atbilde, Sūta";
+"Your Reply, Failed to send" = "Jūsu atbilde, Neizdevās nosūtīt";
+"Retry Sending" = "Mēģiniet sūtīt vēlreiz";
+"Image %@, Double Tap to Download" = "Attēls %@, Divreiz uzklikšķiniet, lai lejupielādētu";
+"Image, Downloading, %@ of %@" = "Attēls, Notiek lejupielāde, %@ no %@";
+"Image, Double Tap to View" = "Attēls, Divreiz uzklikšķiniet, lai apskatītu";
+"File, %@, %@, Double Tap to Download" = "Datne, %@, %@, Divreiz uzklikšķiniet, lai lejupielādētu";
+"File, %@, Downloading %@ of %@" = "Datne, %@, Lejupielādē %@ no %@";
+"File, %@, Double Tap to Open" = "Datne, %@, Divreiz uzklikšķiniet, lai atvērtu";
+"Error" = "Kļūda";
+"Enter a valid input" = "Ievadiet derīgu ievadi";
+"Please enter a valid email" = "Lūdzu, ievadiet derīgu e-pastu";
+"Enter a valid number" = "Ievadiet derīgu numuru";
+"Network error" = "Tīkla kļūda";
+"Connecting..." = "Savieno ...";
+"No internet connection" = "Nav interneta savienojuma";
+"Enter a valid email address" = "ievadiet derīgu epasta adresi";
+"Please enter a valid number" = "Lūdzu, ievadiet derīgu numuru";
+"Tap to retry" = "Pieskarieties, lai mēģinātu vēlreiz";
+"We are still trying to reach support. Please wait." = "Mēs joprojām cenšamies sasniegt atbalstu. Lūdzu uzgaidiet.";
+"Please check your network connection." = "Lūdzu, pārbaudiet tīkla savienojumu.";
+"Sorry, something went wrong. This conversation cannot be continued." = "Piedod, kaut kas nogāja greizi. Šo sarunu nevar turpināt.";
+"Authentication Failed" = "Autentifikācija neizdevās";
+"Please try again later" = "Lūdzu, pamēģiniet vēlreiz vēlāk";
+"Something went wrong. Reconnecting..." = "Kaut kas nogāja greizi. Atkārtoti savienot ...";
+
+"FROM" = "NO";
+"Hold down your device's power and volume up buttons at the same time." = "Vienlaikus nospiediet savas ierīces jaudas un skaļuma palielināšanas pogas.";
+"Enter your message" = "Ievadiet savu ziņu";
+"Back" = "Atpakaļ";
+
+"Please enter a valid date." = "Lūdzu, ievadiet pareizu datumu";
+"Enter a valid date" = "Ievadiet pareizu datumu";

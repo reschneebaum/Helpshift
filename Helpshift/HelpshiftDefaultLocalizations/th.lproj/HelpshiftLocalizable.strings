@@ -65,7 +65,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Could not fetch FAQs" = "ไม่สามารถดึงข้อมูลคำถามที่ถามบ่อยได้";
 "Thanks for rating us." = "ขอบคุณสำหรับการให้คะแนนแก่เรา";
 "Download" = "ดาวน์โหลด";
-"Please enter a valid email" = "โปรดใส่อีเมลที่ถูกต้อง";
 "Message" = "ข้อความ";
 "or" = "หรือ";
 "Decline" = "ปฏิเสธ";
@@ -155,3 +154,42 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Video" = "วีดีโอ";
 "File" = "ไฟล์";
 "Would you like to review the app?" = "คุณต้องการให้คะแนนแอปหรือไม่";
+
+"Sending" = "กำลังส่ง";
+"Failed to send" = "การส่งล้มเหลว";
+"Message from support by %@ on %@" = "ข้อความจากฝ่ายสนับสนุน โดย %@ ใน %@";
+"Message from support on %@" = "ข้อความจากฝ่ายสนับสนุนใน %@";
+"Your Reply on %@" = "การตอบกลับของคุณใน %@";
+"Your Reply, Sending" = "การตอบกลับของคุณ กำลังส่ง";
+"Your Reply, Failed to send" = "การตอบกลับของคุณ การส่งล้มเหลว";
+"Retry Sending" = "กำลังลองส่งใหม่";
+"Image %@, Double Tap to Download" = "ภาพ %@, แตะสองครั้งเพื่อดาวน์โหลด";
+"Image, Downloading, %@ of %@" = "ภาพ, กำลังดาวน์โหลด, %@ จาก %@ ภาพ";
+"Image, Double Tap to View" = "ภาพ, แตะสองครั้งเพื่อดู";
+"File, %@, %@, Double Tap to Download" = "ไฟล์, %@, %@, แตะสองครั้งเพื่อดาวน์โหลด";
+"File, %@, Downloading %@ of %@" = "ไฟล์, %@, กำลังดาวน์โหลด %@ จาก %@ ไฟล์";
+"File, %@, Double Tap to Open" = "ไฟล์, %@, แตะสองครั้งเพื่อเปิด";
+"Error" = "ความผิดพลาด";
+"Enter a valid input" = "ป้อนข้อมูลที่ถูกต้อง";
+"Please enter a valid email" = "โปรดใส่อีเมลที่ถูกต้อง";
+"Enter a valid number" = "ป้อนหมายเลขที่ถูกต้อง";
+"Network error" = "ข้อผิดพลาดเกี่ยวกับเครือข่าย";
+"Connecting..." = "กำลังเชื่อมต่อ ...";
+"No internet connection" = "ไม่มีการเชื่อมต่ออินเทอร์เน็ต";
+"Enter a valid email address" = "ใส่อีเมล์ที่ถูกต้อง";
+"Please enter a valid number" = "โปรดป้อนหมายเลขที่ถูกต้อง";
+"Tap to retry" = "แตะเพื่อลองใหม่";
+"We are still trying to reach support. Please wait." = "เรายังคงพยายามเข้าถึงการสนับสนุน โปรดรอ.";
+"Please check your network connection." = "โปรดตรวจสอบการเชื่อมต่อเครือข่ายของคุณ";
+"Sorry, something went wrong. This conversation cannot be continued." = "ขอโทษมีบางอย่างผิดพลาด. ไม่สามารถสนทนาต่อได้";
+"Authentication Failed" = "รับรองความถูกต้องล้มเหลว";
+"Please try again later" = "กรุณาลองใหม่อีกครั้งในภายหลัง";
+"Something went wrong. Reconnecting..." = "บางอย่างผิดพลาด. เชื่อมต่อใหม่ ...";
+
+"FROM" = "จาก";
+"Hold down your device's power and volume up buttons at the same time." = "กดปุ่มเปิด / ปิดและเปิดเครื่องพร้อมกันในเวลาเดียวกัน";
+"Enter your message" = "ใส่ข้อความของคุณ";
+"Back" = "ย้อนกลับ";
+
+"Please enter a valid date." = "โปรดใส่วันที่ที่ถูกต้อง";
+"Enter a valid date" = "ใส่วันที่ที่ถูกต้อง";

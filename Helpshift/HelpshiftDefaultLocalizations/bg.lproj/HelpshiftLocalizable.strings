@@ -64,7 +64,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Could not fetch FAQs" = "ЧЗВ не могат да бъдат извлечени";
 "Thanks for rating us." = "Благодарим ви, че ни дадохте оценка.";
 "Download" = "Изтегляне";
-"Please enter a valid email" = "Въведете валиден имейл адрес";
 "Message" = "Съобщение";
 "or" = "или";
 "Decline" = "Отказ";
@@ -155,3 +154,42 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Video" = "Видео";
 "File" = "досие";
 "Would you like to review the app?" = "Искате ли да прегледате приложението?";
+
+"Sending" = "Изпращане";
+"Failed to send" = "Неуспешно изпращане";
+"Message from support by %@ on %@" = "Съобщение от отдела за поддръжка от %@ на %@";
+"Message from support on %@" = "Съобщение от отдела за поддръжка на %@";
+"Your Reply on %@" = "Вашият отговор на %@";
+"Your Reply, Sending" = "Вашият отговор, изпращане";
+"Your Reply, Failed to send" = "Вашият отговор, неуспешно изпращане";
+"Retry Sending" = "Повторно изпращане";
+"Image %@, Double Tap to Download" = "Изображение %@, натиснете два пъти за изтегляне";
+"Image, Downloading, %@ of %@" = "Изображение, изтегляне, %@ от %@";
+"Image, Double Tap to View" = "Изображение, натиснете два пъти за преглеждане";
+"File, %@, %@, Double Tap to Download" = "Файл, %@, %@, натиснете два пъти за изтегляне";
+"File, %@, Downloading %@ of %@" = "Файл, %@, изтегляне на %@ от %@";
+"File, %@, Double Tap to Open" = "Файл, %@, натиснете два пъти за отваряне";
+"Error" = "грешка";
+"Enter a valid input" = "Въведете валиден вход";
+"Please enter a valid email" = "Въведете валиден имейл адрес";
+"Enter a valid number" = "Въведете валиден номер";
+"Network error" = "Мрежова грешка";
+"Connecting..." = "Свързване ...";
+"No internet connection" = "Няма интернет връзка";
+"Enter a valid email address" = "въведете валиден имейл адрес";
+"Please enter a valid number" = "Моля въведете валиден номер";
+"Tap to retry" = "Докоснете, за да опитате отново";
+"We are still trying to reach support. Please wait." = "Все още се опитваме да получим подкрепа. Моля Изчакай.";
+"Please check your network connection." = "Моля, проверете мрежовата връзка.";
+"Sorry, something went wrong. This conversation cannot be continued." = "Съжалявам нещо се обърка. Този разговор не може да бъде продължен.";
+"Authentication Failed" = "Неуспешна идентификация";
+"Please try again later" = "Моля, опитайте отново по-късно";
+"Something went wrong. Reconnecting..." = "Нещо се обърка. Повторно свързване ...";
+
+"FROM" = "ОТ";
+"Hold down your device's power and volume up buttons at the same time." = "Задръжте едновременно бутоните за захранване и увеличаване на звука на устройството си.";
+"Enter your message" = "Въведете вашето съобщение";
+"Back" = "Назад";
+
+"Please enter a valid date." = "Моля, въведете валидна дата.";
+"Enter a valid date" = "Въведете валидна дата";

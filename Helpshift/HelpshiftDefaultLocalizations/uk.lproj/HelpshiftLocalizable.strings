@@ -65,7 +65,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Could not fetch FAQs" = "Не вдалося знайти відповіді на поширені питання (FAQ)";
 "Thanks for rating us." = "Дякуємо за оцінку!";
 "Download" = "Завантажити";
-"Please enter a valid email" = "Введіть дійсну адресу e-mail";
 "Message" = "Повідомлення";
 "or" = "або";
 "Decline" = "Відхилити";
@@ -155,3 +154,42 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Video" = "Відео";
 "File" = "Файл";
 "Would you like to review the app?" = "Хочете оцінити додаток?";
+
+"Sending" = "Відправлення";
+"Failed to send" = "Не вдалося відправити";
+"Message from support by %@ on %@" = "Повідомлення служби підтримки від %@ стосовно %@";
+"Message from support on %@" = "Повідомлення служби підтримки стосовно %@";
+"Your Reply on %@" = "Ваша відповідь стосовно %@";
+"Your Reply, Sending" = "Ваша відповідь, відправлення";
+"Your Reply, Failed to send" = "Ваша відповідь, не вдалося відправити";
+"Retry Sending" = "Відправити ще раз";
+"Image %@, Double Tap to Download" = "Зображення %@, натисніть двічі для завантаження";
+"Image, Downloading, %@ of %@" = "Зображення, завантажується, %@ з %@";
+"Image, Double Tap to View" = "Зображення, натисніть двічі для перегляду";
+"File, %@, %@, Double Tap to Download" = "Файл, %@, %@, натисніть двічі для завантаження";
+"File, %@, Downloading %@ of %@" = "Файл, %@, завантажується %@ з %@";
+"File, %@, Double Tap to Open" = "Файл, %@, натисніть двічі, щоб відкрити";
+"Error" = "Помилка";
+"Enter a valid input" = "Введіть дійсний ввід";
+"Please enter a valid email" = "Введіть дійсну адресу e-mail";
+"Enter a valid number" = "Введіть дійсний номер";
+"Network error" = "Помилка мережі";
+"Connecting..." = "Підключення ...";
+"No internet connection" = "Немає підключення до Інтернету";
+"Enter a valid email address" = "Введіть дійсну адресу електронної пошти";
+"Please enter a valid number" = "Введіть дійсний номер";
+"Tap to retry" = "Натисніть, щоб повторити спробу";
+"We are still trying to reach support. Please wait." = "Ми все ще намагаємося досягти підтримки. Будь ласка, зачекайте.";
+"Please check your network connection." = "Перевірте підключення до мережі.";
+"Sorry, something went wrong. This conversation cannot be continued." = "Вибач, щось пішло не так. Ця бесіда не може бути продовжена.";
+"Authentication Failed" = "Автентифікація не виконана";
+"Please try again later" = "Будь-ласка спробуйте пізніше";
+"Something went wrong. Reconnecting..." = "Щось пішло не так. Підключення ...";
+
+"FROM" = "Від";
+"Hold down your device's power and volume up buttons at the same time." = "Тримайте одночасно кнопки живлення та гучності свого пристрою.";
+"Enter your message" = "Введіть текст повідомлення";
+"Back" = "Назад";
+
+"Please enter a valid date." = "Введіть дійсну дату.";
+"Enter a valid date" = "Введіть дійсну дату";

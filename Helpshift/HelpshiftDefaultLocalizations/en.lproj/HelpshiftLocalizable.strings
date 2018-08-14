@@ -64,7 +64,6 @@
 "Could not fetch FAQs" = "Could not fetch FAQs";
 "Thanks for rating us." = "Thanks for rating us.";
 "Download" = "Download";
-"Please enter a valid email" = "Please enter a valid email";
 "Message" = "Message";
 "or" = "or";
 "Your email" = "Your email";
@@ -154,3 +153,42 @@
 "Video" = "Video";
 "File" = "File";
 "Would you like to review the app?" = "Would you like to review the app?";
+
+"Sending" = "Sending";
+"Failed to send" = "Failed to send";
+"Message from support by %@ on %@" = "Message from support by %@ on %@";
+"Message from support on %@" = "Message from support on %@";
+"Your Reply on %@" = "Your Reply on %@";
+"Your Reply, Sending" = "Your Reply, Sending";
+"Your Reply, Failed to send" = "Your Reply, Failed to send";
+"Retry Sending" = "Retry Sending";
+"Image %@, Double Tap to Download" = "Image %@, Double Tap to Download";
+"Image, Downloading, %@ of %@" = "Image, Downloading, %@ of %@";
+"Image, Double Tap to View" = "Image, Double Tap to View";
+"File, %@, %@, Double Tap to Download" = "File, %@, %@, Double Tap to Download";
+"File, %@, Downloading %@ of %@" = "File, %@, Downloading %@ of %@";
+"File, %@, Double Tap to Open" = "File, %@, Double Tap to Open";
+"Error" = "Error";
+"Enter a valid input" = "Enter a valid input";
+"Please enter a valid email" = "Please enter a valid email";
+"Enter a valid number" = "Enter a valid number";
+"Network error" = "Network error";
+"Connecting..." = "Connecting...";
+"No internet connection" = "No internet connection";
+"Enter a valid email address" = "Enter a valid email address";
+"Please enter a valid number" = "Please enter a valid number";
+"Tap to retry" = "Tap to retry";
+"We are still trying to reach support. Please wait." = "We are still trying to reach support. Please wait.";
+"Please check your network connection." = "Please check your network connection.";
+"Sorry, something went wrong. This conversation cannot be continued." = "Sorry, something went wrong. This conversation cannot be continued.";
+"Authentication Failed" = "Authentication Failed";
+"Please try again later" = "Please try again later";
+"Something went wrong. Reconnecting..." = "Something went wrong. Reconnecting...";
+
+"FROM" = "FROM";
+"Hold down your device's power and volume up buttons at the same time." = "Hold down your device's power and volume up buttons at the same time.";
+"Enter your message" = "Enter your message";
+"Back" = "Back";
+
+"Please enter a valid date." = "Please enter a valid date.";
+"Enter a valid date" = "Enter a valid date";

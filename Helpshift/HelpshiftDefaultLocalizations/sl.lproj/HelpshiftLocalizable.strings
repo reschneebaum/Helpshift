@@ -64,7 +64,6 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Could not fetch FAQs" = "Pogostih vprašanj ni bilo mogoče pridobiti";
 "Thanks for rating us." = "Hvala, ker ste nas ocenili.";
 "Download" = "Prenesi";
-"Please enter a valid email" = "Vnesite veljavno e-pošto";
 "Message" = "Sporočilo";
 "or" = "ali";
 "Decline" = "Zavrni";
@@ -155,3 +154,42 @@ Copyright (c) 2014 Helpshift,Inc., All rights reserved.
 "Video" = "Video";
 "File" = "Mapa";
 "Would you like to review the app?" = "Ali želite pregledati aplikacijo?";
+
+"Sending" = "Pošiljanje";
+"Failed to send" = "Slike ni bilo mogoče naložiti";
+"Message from support by %@ on %@" = "Novo sporočilo podpore strankam osebe %@ o temi %@";
+"Message from support on %@" = "Novo sporočilo podpore strankam osebe o temi %@";
+"Your Reply on %@" = "Vaš odgovor na temo %@";
+"Your Reply, Sending" = "Vaš odgovor, pošiljanje";
+"Your Reply, Failed to send" = "Vašega odgovora ni bilo mogoče poslati";
+"Retry Sending" = "Poskusite poslati znova";
+"Image %@, Double Tap to Download" = "Slika %@, dvakrat tapnite za prenos";
+"Image, Downloading, %@ of %@" = "Prenašanje slike %@ od %@";
+"Image, Double Tap to View" = "Slika, dvakrat tapnite za ogled";
+"File, %@, %@, Double Tap to Download" = "Datoteka, %@, %@, dvakrat tapnite za prenos";
+"File, %@, Downloading %@ of %@" = "Datoteka, %@, prenašanje %@ od %@";
+"File, %@, Double Tap to Open" = "Datoteka, %@, dvakrat tapnite, da jo odprete";
+"Error" = "Napaka";
+"Enter a valid input" = "Vnesite veljaven vhod";
+"Please enter a valid email" = "Vnesite veljavno e-pošto";
+"Enter a valid number" = "Vnesite veljavno številko";
+"Network error" = "Napaka omrežja";
+"Connecting..." = "Povezovanje ...";
+"No internet connection" = "Brez internetne povezave";
+"Enter a valid email address" = "Vnesite veljaven e-poštni naslov";
+"Please enter a valid number" = "Vnesite veljavno številko";
+"Tap to retry" = "Tapnite, da znova poskusite";
+"We are still trying to reach support. Please wait." = "Še vedno poskušamo doseči podporo. Prosim počakaj.";
+"Please check your network connection." = "Preverite omrežno povezavo.";
+"Sorry, something went wrong. This conversation cannot be continued." = "Oprostite, nekaj je šlo narobe. Ta pogovor ni mogoče nadaljevati.";
+"Authentication Failed" = "Autentifikacija ni uspela";
+"Please try again later" = "Prosim poskusite kasneje";
+"Something went wrong. Reconnecting..." = "Nekaj je šlo narobe. Ponovno povezovanje ...";
+
+"FROM" = "Od";
+"Hold down your device's power and volume up buttons at the same time." = "Istočasno istočasno držite gumba za napajanje in povečajte glasnost.";
+"Enter your message" = "Vnesite svoje sporočilo";
+"Back" = "Nazaj";
+
+"Please enter a valid date." = "Vnesite veljaven datum";
+"Enter a valid date" = "Vnesite veljaven datum";
