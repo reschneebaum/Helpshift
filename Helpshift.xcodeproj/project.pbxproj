@@ -326,7 +326,7 @@
 					"$(PROJECT_DIR)/Helpshift",
 					"$(PROJECT_DIR)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.reschneebaum.Helpshift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enfluid.Helpshift;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -351,7 +351,7 @@
 					"$(PROJECT_DIR)/Helpshift",
 					"$(PROJECT_DIR)",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.reschneebaum.Helpshift;
+				PRODUCT_BUNDLE_IDENTIFIER = com.enfluid.Helpshift;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
